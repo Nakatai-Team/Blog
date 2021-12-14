@@ -1,0 +1,2 @@
+# Nakatai Blog
+
