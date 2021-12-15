@@ -2,7 +2,6 @@ module.exports = {
     title: 'Nakatai Blog',
     head: [
         ['link', { rel: 'icon', type: 'image/jpg', href: '/favicon.jpg' }],
-        ['meta',{ name:"keywords", content:"vuepress, netlify"}],
         ['meta',{ name:"og:title", content:"Nakatai Blog"}],
         ['meta',{ name:"og:type", content:"website"}],
         ['meta',{ name:"og:url", content:"blog.nakatai.ga"}]
@@ -19,7 +18,7 @@ module.exports = {
             children: [
                 '/blog/'
             ]
-        }
-        ]
-    }
+        },
+        ],
+    },
 }
