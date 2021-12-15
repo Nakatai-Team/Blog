@@ -1,5 +1,6 @@
 module.exports = {
     title: 'Nakatai Blog',
+    theme: '@vuepress/theme-blog',
     head: [
         ['link', { rel: 'icon', type: 'image/jpg', href: '/favicon.jpg' }],
         ['meta',{ name:"og:title", content:"Nakatai Blog"}],
@@ -10,7 +11,7 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'About', link: "https://nakatai.ga" },
-            { text: 'Blog', link: '/blog/' }
+            { text: 'Blog', link: '/blog/' },
         ],
         sidebar: [
             {
@@ -20,5 +21,18 @@ module.exports = {
             ]
         },
         ],
+        dateFormat: 'YYYY-MM-DD',
+        footer: {
+            copyright: [
+            {
+                text: 'Privacy Policy',
+                link: '',
+            },
+            {
+                text: 'GitHub',
+                link: 'https://github.com/Nakatai-0322/Blog',
+            },
+            ],
+        },
     },
 }
