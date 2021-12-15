@@ -9,7 +9,7 @@ module.exports = {
     themeConfig: {
         nav: [
             { text: 'Home', link: '/' },
-            { text: 'About', link: '/about/' },
+            { text: 'About', link: "https://nakatai.ga" },
             { text: 'Blog', link: '/blog/' }
         ],
         sidebar: [
