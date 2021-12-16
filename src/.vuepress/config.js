@@ -25,11 +25,12 @@ module.exports = {
         footer: {
             copyright: [
             {
-                text: 'Privacy Policy',
-                link: '',
+                text: 'LICENSE',
+                Image: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg',
+                link: 'https://creativecommons.org/licenses/by-sa/4.0/deed.ja',
             },
             {
-                text: 'GitHub',
+                text: 'GitHub src',
                 link: 'https://github.com/Nakatai-0322/Blog',
             },
             ],
