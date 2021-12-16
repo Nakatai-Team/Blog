@@ -1,40 +1,19 @@
-name: Deploy
+name: Build and Deploy
 
-  # mainのプッシュ検知
-  on:
-    push:
-      branches:
-        - main
+on: [push]
 
-  jobs:
-    build-deploy:
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v2
-      - name: setup node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '14.x'
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
 
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: ~/.cache/yarn
-          key: ${{ runner.os }}-node-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-              ${{ runner.os }}-node-
-
-      - name: install
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn install
-
-
-      - name: build
-        run: yarn src:build
-
-
-      - name: deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TARGET_REPO: Nakatai-0322/blog
+        TARGET_BRANCH: main
+        BUILD_SCRIPT: yarn && yarn build
+        BUILD_DIR: blog/.vuepress/dist/
