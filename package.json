@@ -11,6 +11,7 @@
   },
   "author": "Nakatai",
   "license": "CC-BY-SA-4.0",
+  "repository": "https://github.com/Nakatai-0322/Blog.git",
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
     "vuepress": "^1.8.2"
