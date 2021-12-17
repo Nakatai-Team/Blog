@@ -26,6 +26,7 @@ module.exports = {
             lineNumbers: true,
             config: md => {
                 md.use(require('markdown-it-footnote'))
+                md.use(require('markdown-it-video'))
             },
         },
         footer: {
