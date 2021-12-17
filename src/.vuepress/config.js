@@ -33,8 +33,9 @@ module.exports = {
         footer: {
             copyright: [
             {
-                Image: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg',
+                text: "CC-BY-SA-4.0",
                 link: 'https://creativecommons.org/licenses/by-sa/4.0/deed.ja',
+                image: 'https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg',
             },
             {
                 text: 'GitHub src',
