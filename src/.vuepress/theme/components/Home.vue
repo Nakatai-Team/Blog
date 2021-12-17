@@ -56,6 +56,9 @@
       class="footer"
     >
       {{ data.footer }}
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" alt="CC-BY-SA-4.0">
+      </a>
     </div>
   </main>
 </template>
