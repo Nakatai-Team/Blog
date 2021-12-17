@@ -22,6 +22,12 @@ module.exports = {
         },
         ],
         dateFormat: 'YYYY-MM-DD',
+        markdown: {
+            lineNumbers: true,
+            config: md => {
+                md.use(require('markdown-it-footnote'))
+            },
+        },
         footer: {
             copyright: [
             {
