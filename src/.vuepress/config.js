@@ -5,7 +5,8 @@ module.exports = {
         ['link', { rel: 'icon', type: 'image/jpg', href: '/favicon.jpg' }],
         ['meta',{ name:"og:title", content:"Nakatai Blog"}],
         ['meta',{ name:"og:type", content:"website"}],
-        ['meta',{ name:"og:url", content:"blog.nakatai.ga"}]
+        ['meta',{ name:"og:url", content:"blog.nakatai.ga"}],
+        ['meta', { name: 'og:image', content: 'https://minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
     ],
     themeConfig: {
         nav: [
