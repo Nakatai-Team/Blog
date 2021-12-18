@@ -17,6 +17,5 @@
   },
   "dependencies": {
     "vuepress-theme-meteorlxy": "^1.9.0"
-    "vuepress-plugin-feed": "^0.1.9"
   }
 }
