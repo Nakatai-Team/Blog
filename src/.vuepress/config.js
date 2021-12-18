@@ -16,9 +16,18 @@ module.exports = {
             lang: 'ja-jp',
         },
     },
-    plugins: [
-    [ 'feed', feed_options ]
-    ],
+    plugins: {
+        "vuepress-plugin-feed":['feed', 'feed_options'],
+        '@vssue/vuepress-plugin-vssue': {
+            // set `platform` rather than `api`
+            platform: 'github',
+            // all other options of Vssue are allowed
+            owner: 'Nakatai-0322',
+            repo: 'nakatai-0322.github.io',
+            clientId: ' 63a74da64a2af8f671fe ',
+            clientSecret: '339f7ea03ac8dfddcd84ca172510f900e9298876'
+        },
+    },
     // テーマを指定
     theme: 'meteorlxy',
 
