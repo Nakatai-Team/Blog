@@ -16,7 +16,7 @@ module.exports = {
             lang: 'ja-jp',
         },
     },
-          plugins: {'feed', 'feed_options'},
+          plugins: 'feed',
 
     // テーマを指定
     theme: 'meteorlxy',
