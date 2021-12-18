@@ -1,34 +1,16 @@
-name: Build
-on:
-  push:
-    branches:
-      - main
+name: Build and Deploy
+on: [push]
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    env:
-      GA: ${{ secrets.GA }}
     steps:
-      - uses: actions/checkout@master
-      - name: package install
-        run: |
-          yarn install
-      - name: build
-        run: |
-          yarn run build
-      - name: commit file
-        run: |
-          cd src/.vuepress/dist
-          echo ${{ secrets.DOMAIN }} > CNAME
-          git config --global user.email ${{ secrets.EMAIL }}
-          git config --global user.name ${{ secrets.NAME }}
-          git init
-          git add -A
-          git commit -m 'deploy'
-      - name: Push
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN}}
-          force: true
-          directory: ./src/.vuepress/dist
-          repository: ${{ secrets.REPO_NAME }}
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        TARGET_REPO: Nakatai-0322/Blog
+        TARGET_BRANCH: gh-pages
+        BUILD_SCRIPT: yarn && yarn build
