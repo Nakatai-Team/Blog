@@ -1,6 +1,6 @@
 const feed_options = {
-   canonical_base: 'https://blog.nakatai.ga',
- };
+    canonical_base: 'https://blog.nakatai.ga',
+};
 
 module.exports = {
     // サイトのタイトル
@@ -16,9 +16,9 @@ module.exports = {
             lang: 'ja-jp',
         },
     },
- plugins: [
+    plugins: [
     [ 'feed', feed_options ]
-  ],
+    ],
     // テーマを指定
     theme: 'meteorlxy',
 
@@ -84,7 +84,6 @@ module.exports = {
         smoothScroll: true,
 
         zooming: {
-            // @see https://vuepress.github.io/en/plugins/zooming
         },
 
         pagination: {
