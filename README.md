@@ -9,7 +9,7 @@
 | ---------------------------------- | -------------------------------- |
 | <https://blog.nakatai.ga>          | メインドメイン                          |
 | <https://nakatai-blog.netlify.app> | Netlifyのサブドメイン                   |
-| <https://nakatai.ga/Blog/>         | サブドメイン（GitHub Pages）。現在テーマがおかしい。 |
+| <https://nakatai-0322.github.io>         | Netlify死んだとき用の保険。（GitHub Pages）|
 
 ## ブランチリスト
 
