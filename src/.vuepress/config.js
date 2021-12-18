@@ -1,45 +1,4 @@
 module.exports = {
-    title: 'Nakatai Blog',
-    theme: 'vuepress-theme-meteorlxy',
-
-    description: "Nakatai's Blog",
-
-    locales: {
-        '/': {
-            lang: 'ja-jp',
-        },
-    },
-
-    themeConfig: {
-        lang: 'ja-JP',
-
-        // Personal infomation (delete the fields if you don't have / don't want to display)
-        personalInfo: {
-            nickname: 'Nakatai',
-            description: '開発者もどき',
-            location: 'Gifu Pref',
-            organization: 'FREESERVER PROJECT',
-            email: 'info@nakatai.ga',
-            avatar: 'https://i.imgur.com/JKrXD5e.jpg',
-            sns: {
-                twitter: {
-                    account: 'Nakatai_0322',
-                    link: 'https://twitter.com/Nakatai_0322',
-                },
-                github: {
-                    account: "Nakatai-0322",
-                    link: "https://github.com/Nakatai-0322",
-                }
-            },
-        },
-
-        // Header Config (Optional)
-        header: {
-            // ヘッダーの背景画像
-            background: {
-                url: "",
-                useGeo: true,
-module.exports = {
     // サイトのタイトル
     title: 'Nakatai Blog',
     theme: 'vuepress-theme-meteorlxy',
