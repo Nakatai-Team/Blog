@@ -7,6 +7,7 @@ module.exports = {
         ['meta',{ name:"og:type", content:"website"}],
         ['meta',{ name:"og:url", content:"https://blog.nakatai.ga"}],
         ['meta', { name: 'og:image', content: 'https://minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
+        ['link',{rel: 'stylesheet',href: `https://fonts.googleapis.com/css?family=Noto+Sans+JP`}]
     ],
     themeConfig: {
         nav: [
