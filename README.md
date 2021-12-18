@@ -5,14 +5,15 @@
 
 ## ドメインリスト
 
-| ドメイン                               | 概要                               |
-| ---------------------------------- | -------------------------------- |
-| <https://blog.nakatai.ga>          | メインドメイン                          |
-| <https://nakatai-blog.netlify.app> | Netlifyのサブドメイン                   |
-| <https://nakatai-0322.github.io>         | Netlify死んだとき用の保険。（GitHub Pages）|
+| ドメイン                               | 概要                              |
+| ---------------------------------- | ------------------------------- |
+| <https://blog.nakatai.ga>          | メインドメイン                         |
+| <https://nakatai-blog.netlify.app> | Netlifyのサブドメイン                  |
+| <https://nakatai-0322.github.io>   | Netlify死んだとき用の保険。（GitHub Pages） |
 
 ## ブランチリスト
 
-| ブランチ    | 使用用途           |
-| ------- | -------------- |
-| main    | Markdownソース置き場 |
+| ブランチ     | 使用用途                       |
+| -------- | -------------------------- |
+| main     | Markdownソース置き場             |
+| gh_pages | ActionsでビルドされたHTMLファイル置き場。 |
