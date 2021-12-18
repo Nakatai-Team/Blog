@@ -1,6 +1,5 @@
 module.exports = {
     title: 'Nakatai Blog',
-    theme: '@vuepress/theme-blog',
     head: [
         ['link', { rel: 'icon', type: 'image/jpg', href: '/favicon.jpg' }],
         ['meta',{ name:"og:title", content:"Nakatai Blog"}],
