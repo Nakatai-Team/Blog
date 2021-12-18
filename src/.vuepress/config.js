@@ -1,22 +1,15 @@
 module.exports = {
-    // サイトのタイトル
     title: 'Nakatai Blog',
     theme: 'vuepress-theme-meteorlxy',
 
-    // サイトの説明
     description: "Nakatai's Blog",
 
-    // 言語設定
     locales: {
         '/': {
             lang: 'ja-jp',
         },
     },
 
-    // テーマを指定
-    theme: 'meteorlxy',
-
-    // Theme config
     themeConfig: {
         lang: 'ja-JP',
 
