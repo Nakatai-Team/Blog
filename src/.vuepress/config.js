@@ -24,8 +24,8 @@ module.exports = {
             // all other options of Vssue are allowed
             owner: 'Nakatai-0322',
             repo: 'nakatai-0322.github.io',
-            clientId: ' 63a74da64a2af8f671fe ',
-            clientSecret: '339f7ea03ac8dfddcd84ca172510f900e9298876'
+            clientId: '',
+            clientSecret: ''
         },
     },
     // テーマを指定
