@@ -15,6 +15,7 @@ module.exports = {
             { text: 'About', link: "https://nakatai.ga" },
             { text: 'Blog', link: '/blog/' },
         ],
+        logo: 'https://minotar.net/helm/d297f52003024e5d944fd78edc82891a',
         sidebar: [
             {
             title: 'Blog',
@@ -39,5 +40,12 @@ module.exports = {
             },
             ],
         },
+        nextLinks: true,
+        prevLinks: true,
+        editLinks: true,
+        repo: 'Nakatai-0322/Blog',
+        docsDir: 'src',
+        docsBranch: 'main',
+        editLinkText: 'Edit in GitHub',
     },
 }
