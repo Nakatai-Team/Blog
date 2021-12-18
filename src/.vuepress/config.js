@@ -45,6 +45,54 @@ module.exports = {
             background: {
                 url: "",
                 useGeo: true,
+module.exports = {
+    // サイトのタイトル
+    title: 'Nakatai Blog',
+    theme: 'vuepress-theme-meteorlxy',
+
+    // サイトの説明
+    description: "Nakatai's Blog",
+
+    // 言語設定
+    locales: {
+        '/': {
+            lang: 'ja-jp',
+        },
+    },
+
+    // テーマを指定
+    theme: 'meteorlxy',
+
+    // Theme config
+    themeConfig: {
+        lang: 'ja-JP',
+
+        // Personal infomation (delete the fields if you don't have / don't want to display)
+        personalInfo: {
+            nickname: 'Nakatai',
+            description: '開発者もどき',
+            location: 'Gifu Pref',
+            organization: 'FREESERVER PROJECT',
+            email: 'info@nakatai.ga',
+            avatar: 'https://minotar.net/helm/d297f52003024e5d944fd78edc82891a',
+            sns: {
+                twitter: {
+                    account: 'Nakatai_0322',
+                    link: 'https://twitter.com/Nakatai_0322',
+                },
+                github: {
+                    account: "Nakatai-0322",
+                    link: "https://github.com/Nakatai-0322",
+                }
+            },
+        },
+
+        // Header Config (Optional)
+        header: {
+            // ヘッダーの背景画像
+            background: {
+                url: "",
+                useGeo: true,
             },
 
             showTitle: true,
