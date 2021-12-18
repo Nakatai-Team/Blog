@@ -59,17 +59,14 @@ module.exports = {
 
         footer: {
             poweredBy: true,
-
             poweredByTheme: true,
-
-            custom: '&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> ',
+            custom: '<a href="https://github.com/Nakatai-0322/nakatai-0322.github.io">GitHubソース</a><br>&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> ',
         },
 
         infoCard: {
             headerBackground: {
                 //url: '',
 
-                // ランダムパターンを使用するか？
                 useGeo: true,
             },
         },
@@ -78,7 +75,7 @@ module.exports = {
 
         nav: [
             { text: 'ホーム', link: '/', exact: true },
-            { text: '記事検索', link: '/posts/', exact: false },
+            { text: '全記事リスト', link: '/posts/', exact: false },
         ],
 
         smoothScroll: true,
