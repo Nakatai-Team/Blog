@@ -1,51 +1,93 @@
 module.exports = {
+    // サイトのタイトル
     title: 'Nakatai Blog',
-    theme: '@vuepress/theme-blog',
-    head: [
-        ['link', { rel: 'icon', type: 'image/jpg', href: '/favicon.jpg' }],
-        ['meta',{ name:"og:title", content:"Nakatai Blog"}],
-        ['meta',{ name:"og:type", content:"website"}],
-        ['meta',{ name:"og:url", content:"https://blog.nakatai.ga"}],
-        ['meta', { name: 'og:image', content: 'https://minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
-        ['link',{rel: 'stylesheet',href: `https://fonts.googleapis.com/css?family=Noto+Sans+JP`}]
-    ],
+    theme: 'vuepress-theme-meteorlxy',
+
+    // サイトの説明
+    description: "Nakatai's Blog",
+
+    // 言語設定
+    locales: {
+        '/': {
+            lang: 'ja-jp',
+        },
+    },
+
+    // テーマを指定
+    theme: 'meteorlxy',
+
+    // Theme config
     themeConfig: {
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'About', link: "https://nakatai.ga" },
-            { text: 'Blog', link: '/blog/' },
-        ],
-        logo: 'https://minotar.net/helm/d297f52003024e5d944fd78edc82891a',
-        sidebar: [
-            {
-            title: 'Blog',
-            children: [
-                '/blog/'
-            ]
-        },
-        ],
-        dateFormat: 'YYYY-MM-DD',
-        markdown: {
-            lineNumbers: true,
-            config: md => {
-                md.use(require('markdown-it-footnote'))
-                md.use(require('markdown-it-video'))
+        lang: 'ja-JP',
+
+        // Personal infomation (delete the fields if you don't have / don't want to display)
+        personalInfo: {
+            nickname: 'Nakatai',
+            description: '開発者もどき',
+            location: 'Gifu Pref',
+            organization: 'FREESERVER PROJECT',
+            email: 'info@nakatai.ga',
+            avatar: 'https://minotar.net/helm/d297f52003024e5d944fd78edc82891a',
+            sns: {
+                twitter: {
+                    account: 'Nakatai_0322',
+                    link: 'https://twitter.com/Nakatai_0322',
+                },
+                github: {
+                    account: "Nakatai-0322",
+                    link: "https://github.com/Nakatai-0322",
+                }
             },
         },
+
+        // Header Config (Optional)
+        header: {
+            // ヘッダーの背景画像
+            background: {
+                url: "",
+                useGeo: true,
+            },
+
+            showTitle: true,
+        },
+
         footer: {
-            copyright: [
-            {
-                text: 'GitHub src',
-                link: 'https://github.com/Nakatai-0322/Blog',
-            },
-            ],
+            poweredBy: true,
+
+            poweredByTheme: true,
+
+            custom: '&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> ',
         },
-        nextLinks: true,
-        prevLinks: true,
-        editLinks: true,
-        repo: 'Nakatai-0322/Blog',
-        docsDir: 'src',
-        docsBranch: 'main',
-        editLinkText: 'Edit in GitHub',
+
+        infoCard: {
+            headerBackground: {
+                //url: '',
+
+                // ランダムパターンを使用するか？
+                useGeo: true,
+            },
+        },
+
+        lastUpdated: true,
+
+        nav: [
+            { text: 'ホーム', link: '/', exact: true },
+            { text: '記事検索', link: '/posts/', exact: false },
+        ],
+
+        smoothScroll: true,
+
+        zooming: {
+            // @see https://vuepress.github.io/en/plugins/zooming
+        },
+
+        pagination: {
+            perPage: 5,
+        },
+
+        defaultPages: {
+            home: true,
+            posts: true,
+        },
     },
 }
