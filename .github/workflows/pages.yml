@@ -11,7 +11,5 @@ jobs:
       uses: jenkey2011/vuepress-deploy@master
       env:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        TARGET_REPO: Nakatai-0322/nakatai-0322.github.io
-        TARGET_BRANCH: gh_pages
+        TARGET_BRANCH: main
         BUILD_SCRIPT: yarn && yarn build
-        BUILD_DIR: src/.vuepress/dist/
