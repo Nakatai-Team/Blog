@@ -19,13 +19,9 @@ module.exports = {
     plugins: {
         "vuepress-plugin-feed":['feed', 'feed_options'],
         '@vssue/vuepress-plugin-vssue': {
-            // set `platform` rather than `api`
             platform: 'github',
-            // all other options of Vssue are allowed
             owner: 'Nakatai-0322',
             repo: 'nakatai-0322.github.io',
-            clientId: '',
-            clientSecret: ''
         },
     },
     // テーマを指定
