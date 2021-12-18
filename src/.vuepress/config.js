@@ -1,6 +1,3 @@
-const feed_options = {
-  canonical_base: 'https://blog.nakatai.ga',
-};
 module.exports = {
     title: 'Nakatai Blog',
     theme: 'vuepress-theme-meteorlxy',
@@ -12,9 +9,6 @@ module.exports = {
             lang: 'ja-jp',
         },
     },
-      plugins: [
-    [ 'feed', feed_options ]
-    ]
 
     themeConfig: {
         lang: 'ja-JP',
