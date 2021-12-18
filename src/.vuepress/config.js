@@ -1,3 +1,7 @@
+const feed_options = {
+   canonical_base: 'https://blog.nakatai.ga',
+ };
+
 module.exports = {
     // サイトのタイトル
     title: 'Nakatai Blog',
@@ -12,6 +16,9 @@ module.exports = {
             lang: 'ja-jp',
         },
     },
+          plugins: [
+     [ 'feed', 'feed_options' ]
+     ]
 
     // テーマを指定
     theme: 'meteorlxy',
