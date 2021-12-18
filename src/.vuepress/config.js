@@ -20,7 +20,7 @@ module.exports = {
             location: 'Gifu Pref',
             organization: 'FREESERVER PROJECT',
             email: 'info@nakatai.ga',
-            avatar: 'https://minotar.net/helm/d297f52003024e5d944fd78edc82891a',
+            avatar: 'https://i.imgur.com/JKrXD5e.jpg',
             sns: {
                 twitter: {
                     account: 'Nakatai_0322',
