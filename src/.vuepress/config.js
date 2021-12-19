@@ -5,7 +5,7 @@ const feed_options = {
 module.exports = {
     // サイトのタイトル
     title: 'Nakatai Blog',
-    theme: 'theme/',
+    theme: 'meteorlxy',
 
     // サイトの説明
     description: "Nakatai's Blog",
@@ -17,7 +17,10 @@ module.exports = {
         },
     },
     plugins: {
-        "vuepress-plugin-feed":['feed', 'feed_options']
+        "vuepress-plugin-feed":['feed', 'feed_options'],
+        "disqus": {
+            "shortname":"blog-nakatai-ga"
+        }
     },
 
     // Theme config
@@ -89,5 +92,6 @@ module.exports = {
             home: true,
             posts: true,
         },
+        comments: false,
     },
 }
