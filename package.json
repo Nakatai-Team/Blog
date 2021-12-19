@@ -14,7 +14,8 @@
   "repository": "https://github.com/Nakatai-0322/Blog.git",
   "devDependencies": {
     "vuepress": "^1.8.2",
-    "vuepress-plugin-disqus": "^0.2.0"
+    "vuepress-plugin-disqus": "^0.2.0",
+    "vuepress-plugin-google-adsense": "^0.2.1"
   },
   "dependencies": {
     "vuepress-plugin-feed": "^0.1.9",

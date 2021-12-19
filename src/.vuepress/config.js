@@ -25,7 +25,11 @@ module.exports = {
         "vuepress-plugin-feed":['feed', 'feed_options'],
         "disqus": {
             "shortname":"blog-nakatai-ga"
-        }
+        },
+        "vuepress-plugin-google-adsense":{
+            adClient: "ca-pub-2041303981654233",
+            adsTxt:true,
+        },
     },
 
     // Theme config
