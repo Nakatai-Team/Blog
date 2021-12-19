@@ -14,7 +14,7 @@ module.exports = {
         ['link', { rel: 'icon', type: 'image/jpg', href: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
         ['meta', { name: 'og:image', content: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
         ['script',{
-            async ,
+            "async" ,
             src:"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2041303981654233" ,
             crossorigin:'anonymous' ,
         }],
