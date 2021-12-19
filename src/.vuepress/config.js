@@ -12,7 +12,6 @@ module.exports = {
 
     head: [
         ['link', { rel: 'icon', type: 'image/jpg', href: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
-        ['meta',{ name:"og:type", content:"website"}],
         ['meta', { name: 'og:image', content: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
     ],
 
