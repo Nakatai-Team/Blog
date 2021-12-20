@@ -80,7 +80,7 @@ module.exports = {
         footer: {
             poweredBy: true,
             poweredByTheme: true,
-            custom: '<a href="https://blog.nakatai.ga/disclaimer.html">免責事項</a><br><a href="https://blog.nakatai.ga/privacypolicy.html">プライバシーポリシー</a><br> <a href="https://github.com/Nakatai-0322/nakatai-0322.github.io">GitHubソース</a><br>&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> ',
+            custom: '<a href="https://blog.nakatai.ga/posts/2021/12/20/_12-20-001.html">免責事項</a><br><a href="https://blog.nakatai.ga/posts/2021/12/20/_12-20-002.html">プライバシーポリシー</a><br> <a href="https://github.com/Nakatai-0322/nakatai-0322.github.io">GitHubソース</a><br>&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> ',
         },
 
         infoCard: {
