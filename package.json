@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "vuepress-plugin-feed": "^0.1.9",
+    "vuepress-plugin-sitemap": "^2.3.1",
     "vuepress-theme-meteorlxy": "^1.9.0"
   }
 }

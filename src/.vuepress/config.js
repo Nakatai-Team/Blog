@@ -30,6 +30,13 @@ module.exports = {
             adClient: "ca-pub-2041303981654233",
             adsTxt:true,
         },
+        'sitemap': {
+            hostname: 'https://blog.nakatai.ga',
+            exclude: ["/404.html"],
+            dateFormatter: val => {
+                return new Date().toISOString()
+            }
+        },
     },
 
     // Theme config
