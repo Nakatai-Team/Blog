@@ -2,6 +2,7 @@
 title: "免責事項"
 categories: ["ポリシー"]
 tags: ["ポリシー"]
+date: 2021-12-20
 menu: main
 permalink: /policy/disclaimer/
 ---
