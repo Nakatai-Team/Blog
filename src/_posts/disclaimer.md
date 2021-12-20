@@ -1,9 +1,9 @@
 ---
 title: "免責事項"
-date: 2021-12-20
-categories: ["ブログ関連"]
+categories: ["ポリシー"]
 tags: ["ポリシー"]
 menu: main
+permalink: /policy/disclaimer/
 ---
 
 Nakatai Blog`blog.nakatai.ga`（以下，「当サイト」とします。）における免責事項は，下記の通りです。
