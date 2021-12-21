@@ -22,7 +22,15 @@ module.exports = {
         },
     },
     plugins: {
-        "vuepress-plugin-feed":['feed', 'feed_options'],
+        'vuepress-plugin-rss':{
+              base_url: '/', // required
+              site_url: 'https://blog.nakatai.ga', // required
+              copyright: '&copy; 2021-present Nakatai Some Right Reserved.', // optional
+              // filter some post
+                filter: (frontmatter) => { return [true|false] },
+              // How much articles
+                count: 20
+            },
         "disqus": {
             "shortname":"blog-nakatai-ga"
         },
