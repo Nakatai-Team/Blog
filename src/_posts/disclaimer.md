@@ -46,4 +46,16 @@ Nakatai Blog`blog.nakatai.ga`（以下，「当サイト」とします。）に
 
 詳しくは，[ライセンスの原文](https://creativecommons.org/licenses/by-sa/4.0/legalcode)（英文）をご覧ください。
 
+## 問い合わせについて
+
+免責事項や，ブログの内容に関するお問い合わせは，下記の問い合わせ先までお願いいたします。
+
+Eメールアドレス:[`info@nakatai.ga`](mailto:info@nakatai.ga)
+Twitter:[`@Nakatai_0322`](https://twitter.com/Nakatai_0322)
+Discord:`Nakatai_0322#6872`
+
 令和3年12月20日  策定
+
+令和3年12月25日「問い合わせについて」の項を追加
+
+※詳細な改正履歴については，[GitHub](https://github.com/Nakatai-0322/nakatai-0322.github.io/commits/main/src/_posts/disclaimer.md)の更新履歴をご覧ください。
