@@ -79,8 +79,8 @@ module.exports = {
         header: {
             // ヘッダーの背景画像
             background: {
-                url: "https://github-contributions-api.deno.dev/Nakatai-0322.svg?no-total=true",
-                useGeo: false,
+                url: "",
+                useGeo: true,
             },
 
             showTitle: true,
