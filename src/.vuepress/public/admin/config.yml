@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+  branch: master 
+locale: 'ja'
+media_folder: ".vuepress/public/media"
+public_folder : "/media"
+
+# NetlifyCMSの編集画面をフロー化
+publish_mode: editorial_workflow
+
+# 編集オブジェクト
+collections:
+  - name: "Blog" 
+    label: "Blog"
+    folder: "src/_posts"
+    create: true
+    slug: "{{slug}}" #ファイル名になる
+    editor:
+      preview: true #CMSの編集画面にプレビューがつく
+    # コレクションのフィールド
+    fields:
+      - {label: "Title", name: "title", widget: "string"} 
+      - {label: "Body", name: "body", widget: "markdown"}
