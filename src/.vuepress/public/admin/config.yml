@@ -1,5 +1,5 @@
 backend:
-  name: git-gateway
+  name: github
   branch: main
   locale: 'ja'
 media_folder: ".vuepress/public/media"
