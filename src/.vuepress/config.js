@@ -105,7 +105,7 @@ module.exports = {
         nav: [
             { text: 'ホーム', link: '/', exact: true },
             { text: '全記事リスト', link: '/posts/', exact: false },
-            { text: 'Admin', link: '/admin/#/',},
+            { text: 'Admin', link: '/admin',},
         ],
 
         smoothScroll: true,
