@@ -1,0 +1,20 @@
+backend:
+  name: github
+  branch: main
+  locale: 'ja'
+media_folder: ".vuepress/public/media"
+public_folder : "/media"
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "Blog" 
+    label: "Blog"
+    folder: "docs/Blog"
+    create: true
+    slug: "{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"} 
+      - {label: "Body", name: "body", widget: "markdown"}
