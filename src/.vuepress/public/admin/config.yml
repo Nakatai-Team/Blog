@@ -12,7 +12,18 @@ collections:
     label: "Blog-2021"
     folder: "src/_posts/2021"
     create: true
-    slug: mm-dd
+    slug: "{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"} 
+      - {label: "Body", name: "body", widget: "markdown"}
+  
+  - name: "Blog-2022" 
+    label: "Blog-2022"
+    folder: "src/_posts/2022"
+    create: true
+    slug: "{{month}}-{{day}}-{{slug}}"
     editor:
       preview: true
     fields:
