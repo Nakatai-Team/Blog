@@ -1,5 +1,6 @@
 backend:
   name: github
+  repo: Blog
   branch: main
   locale: 'ja'
 media_folder: ".vuepress/public/media"
