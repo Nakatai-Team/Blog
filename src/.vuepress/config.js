@@ -3,11 +3,9 @@ const feed_options = {
 };
 
 module.exports = {
-    // サイトのタイトル
     title: 'Nakatai Blog',
     theme: 'meteorlxy',
 
-    // サイトの説明
     description: "Nakatai's Blog",
 
     head: [
@@ -16,7 +14,6 @@ module.exports = {
         ['link', { href: '/css/style.css', rel: 'stylesheet'}]
     ],
 
-    // 言語設定
     locales: {
         '/': {
             lang: 'ja-jp',
@@ -24,14 +21,12 @@ module.exports = {
     },
     plugins: {
         'vuepress-plugin-rss':{
-              base_url: '/', // required
-              site_url: 'https://blog.nakatai.ga', // required
-              copyright: '&copy; 2021-present Nakatai Some Right Reserved.', // optional
-              // filter some post
+                base_url: '/',
+                site_url: 'https://blog.nakatai.ga',
+                copyright: '&copy; 2021-present Nakatai Some Right Reserved.',
                 filter: (frontmatter) => { return [true|false] },
-              // How much articles
                 count: 20
-            },
+        },
         "disqus": {
             "shortname":"blog-nakatai-ga"
         },
@@ -47,15 +42,13 @@ module.exports = {
             }
         },
         '@vuepress/google-analytics': {
-            'ga': ' UA-209688701-2 '
+            ga: 'UA-209688701-2'
         },
     },
 
-    // Theme config
     themeConfig: {
         lang: 'ja-JP',
 
-        // Personal infomation (delete the fields if you don't have / don't want to display)
         personalInfo: {
             nickname: 'Nakatai',
             description: '開発者もどき',
@@ -71,13 +64,11 @@ module.exports = {
                 github: {
                     account: "Nakatai-0322",
                     link: "https://github.com/Nakatai-0322",
-                }
+                },
             },
         },
 
-        // Header Config (Optional)
         header: {
-            // ヘッダーの背景画像
             background: {
                 url: "",
                 useGeo: true,
@@ -94,8 +85,7 @@ module.exports = {
 
         infoCard: {
             headerBackground: {
-                //url: '',
-
+                // url: '',
                 useGeo: true,
             },
         },
