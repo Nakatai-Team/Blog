@@ -48,7 +48,6 @@ module.exports = {
 
     themeConfig: {
         lang: 'ja-JP',
-
         personalInfo: {
             nickname: 'Nakatai',
             description: '開発者もどき',
@@ -73,7 +72,6 @@ module.exports = {
                 url: "",
                 useGeo: true,
             },
-
             showTitle: true,
         },
 
