@@ -1,7 +1,9 @@
 ---
-title: "免責事項"
-categories: ["ポリシー"]
-tags: ["ポリシー"]
+title: 免責事項
+categories:
+  - ポリシー
+tags:
+  - ポリシー
 date: 2021-12-20
 menu: main
 permalink: /policy/disclaimer/
@@ -51,7 +53,9 @@ Nakatai Blog`blog.nakatai.ga`（以下，「当サイト」とします。）に
 免責事項や，ブログの内容に関するお問い合わせは，下記の問い合わせ先までお願いいたします。
 
 Eメールアドレス:[`info@nakatai.ga`](mailto:info@nakatai.ga)
+
 Twitter:[`@Nakatai_0322`](https://twitter.com/Nakatai_0322)
+
 Discord:`Nakatai_0322#6872`
 
 令和3年12月20日  策定
