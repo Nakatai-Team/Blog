@@ -8,11 +8,11 @@ public_folder : "/media"
 publish_mode: editorial_workflow
 
 collections:
-  - name: "Blog" 
+  - name: "Blog-2021" 
     label: "Blog"
-    folder: "docs/Blog"
+    folder: "src/_posts/2021"
     create: true
-    slug: "{{slug}}"
+    slug: mm-dd
     editor:
       preview: true
     fields:
