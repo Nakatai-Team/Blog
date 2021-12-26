@@ -108,13 +108,13 @@ Nakatai（以下，「当ブログ主」といいます。）は，本ウェブ�
 
 ### Google Adsense
 
-当サイトはGoogle及びGoogleのパートナー（第三者配信事業者）の提供する広告を設置しております。その広告配信にはCookieを使用し、当サイトやその他のサイトへの過去のアクセス情報に基づいて広告を配信します。
+当サイトはGoogle及びGoogleのパートナー（第三者配信事業者）の提供する広告を設置しております。その広告配信にはCookieを使用し，当サイトやその他のサイトへの過去のアクセス情報に基づいて広告を配信します。
 
-Googleが広告Cookieを使用することにより、当サイトや他のサイトにアクセスした際の情報に基づいて、Google やそのパートナーが適切な広告を表示しています。
+Googleが広告Cookieを使用することにより，当サイトや他のサイトにアクセスした際の情報に基づいて，Google やそのパートナーが適切な広告を表示しています。
 
-お客様はGoogleアカウントの[広告設定ページ](https://adssettings.google.com/u/0/authenticated)で、**パーソナライズ広告を無効にできます。**また`aboutads.info`のページにアクセスして頂き、パーソナライズ広告掲載に使用される第三者配信事業者のCookieを無効にできます。
+お客様はGoogleアカウントの[広告設定ページ](https://adssettings.google.com/u/0/authenticated)で，**パーソナライズ広告を無効にできます。**また`aboutads.info`のページにアクセスして頂き，パーソナライズ広告掲載に使用される第三者配信事業者のCookieを無効にできます。
 
-その他、Googleの広告におけるCookieの取り扱い詳細については、[Googleのポリシーと規約ページ](https://policies.google.com/technologies/ads)をご覧ください。
+その他，Googleの広告におけるCookieの取り扱い詳細については，[Googleのポリシーと規約ページ](https://policies.google.com/technologies/ads)をご覧ください。
 
 ## 第10条（お問い合わせ窓口）
 
