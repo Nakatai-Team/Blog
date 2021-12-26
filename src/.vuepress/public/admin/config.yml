@@ -9,7 +9,7 @@ publish_mode: editorial_workflow
 
 collections:
   - name: "Blog-2021" 
-    label: "Blog"
+    label: "Blog-2021"
     folder: "src/_posts/2021"
     create: true
     slug: mm-dd
