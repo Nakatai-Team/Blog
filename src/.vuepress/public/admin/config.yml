@@ -18,10 +18,10 @@ collections:
     fields:
       - {label: "Title", name: "title", widget: "string"} 
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Thumbnail", name: "socialImage", widget: image}
+      - {label: "Thumbnail", name: "socialImage", widget: image, required: false}
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Description", name: "description", widget: "text", required: false}
       - {label: "Slug", name: "slug", widget: "number", default: "001"}
   
   - name: "Blog-2022" 
