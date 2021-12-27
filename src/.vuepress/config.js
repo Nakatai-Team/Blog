@@ -29,7 +29,7 @@ module.exports = {
         },
         "vuepress-plugin-google-adsense":{
             adClient: "ca-pub-2041303981654233",
-            adsTxt:true,
+            adsTxt: true,
         },
         'sitemap': {
             hostname: 'https://blog.nakatai.ga',
