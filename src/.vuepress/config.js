@@ -18,11 +18,11 @@ module.exports = {
     },
     plugins: {
         'vuepress-plugin-rss':{
-                base_url: '/',
-                site_url: 'https://blog.nakatai.ga',
-                copyright: '&copy; 2021-present Nakatai Some Right Reserved.',
-                filter: (frontmatter) => { return [true|false] },
-                count: 20
+            base_url: '/',
+            site_url: 'https://blog.nakatai.ga',
+            copyright: '&copy; 2021-present Nakatai Some Right Reserved.',
+            filter: (frontmatter) => { return [true|false] },
+            count: 20
         },
         "disqus": {
             "shortname":"blog-nakatai-ga"
@@ -51,7 +51,7 @@ module.exports = {
             location: 'Gifu Pref',
             organization: 'FREESERVER PROJECT',
             email: 'info@nakatai.ga',
-            avatar: 'https://i.imgur.com/89P4rj6.jpg',
+            avatar: 'https://go.nakatai.ga/icon_trimmed',
             sns: {
                 twitter: {
                     account: 'Nakatai_0322',
