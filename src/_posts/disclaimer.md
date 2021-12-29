@@ -9,7 +9,7 @@ menu: main
 permalink: /policy/disclaimer/
 ---
 
-Nakatai Blog`blog.nakatai.ga`（以下，「当サイト」とします。）における免責事項は，下記の通りです。
+Nakatai Blog`nakatai.ga`・その他[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README.md#ドメインリスト)に掲載（以下，「当サイト」とします。）における免責事項は，下記の通りです。
 
 ## コメントについて
 

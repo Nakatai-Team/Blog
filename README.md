@@ -5,11 +5,12 @@
 
 ## ドメインリスト
 
-| ドメイン                               | 概要                              |
-| ---------------------------------- | ------------------------------- |
-| <https://blog.nakatai.ga>          | メインドメイン                         |
-| <https://nakatai-blog.netlify.app> | Netlifyのサブドメイン                  |
-| <https://nakatai-0322.github.io>   | メインドメインにリダイレクト |
+| ドメイン                               | 概要                   |
+| ---------------------------------- | -------------------- |
+| <https://nakatai.ga>               | メインドメイン              |
+| <https://blog.nakatai.ga>          | 互換のために残しているドメイン（非推奨） |
+| <https://nakatai-blog.netlify.app> | Netlifyのサブドメイン       |
+| <https://nakatai-0322.github.io>   | メインドメインにリダイレクト       |
 
 ## ブランチリスト
 

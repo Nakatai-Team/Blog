@@ -1,5 +1,5 @@
 const feed_options = {
-    canonical_base: 'https://blog.nakatai.ga',
+    canonical_base: 'https://nakatai.ga',
 };
 
 module.exports = {
@@ -19,7 +19,7 @@ module.exports = {
     plugins: {
         'vuepress-plugin-rss':{
             base_url: '/',
-            site_url: 'https://blog.nakatai.ga',
+            site_url: 'https://nakatai.ga',
             copyright: '&copy; 2021-present Nakatai Some Right Reserved.',
             filter: (frontmatter) => { return [true|false] },
             count: 20
@@ -32,7 +32,7 @@ module.exports = {
             adsTxt: true,
         },
         'sitemap': {
-            hostname: 'https://blog.nakatai.ga',
+            hostname: 'https://nakatai.ga',
             exclude: ["/404.html"],
             dateFormatter: val => {
                 return new Date().toISOString()
@@ -75,7 +75,7 @@ module.exports = {
         footer: {
             poweredBy: true,
             poweredByTheme: true,
-            custom: '<a href="https://blog.nakatai.ga/policy/disclaimer">免責事項</a> | <a href="https://blog.nakatai.ga/policy/privacypolicy">プライバシーポリシー</a><br> <a href="https://github.com/Nakatai-0322/nakatai-0322.github.io">GitHubソース</a><br>&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> ',
+            custom: '<a href="https://nakatai.ga/policy/disclaimer">免責事項</a> | <a href="https://nakatai.ga/policy/privacypolicy">プライバシーポリシー</a><br> <a href="https://github.com/Nakatai-0322/nakatai-0322.github.io">GitHubソース</a><br>&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> ',
         },
 
         infoCard: {
@@ -90,7 +90,7 @@ module.exports = {
         nav: [
             { text: 'ホーム', link: '/', exact: true },
             { text: '全記事リスト', link: '/posts/', exact: false },
-            { text: 'Admin', link: 'https://blog.nakatai.ga/admin',},
+            { text: 'Admin', link: 'https://nakatai.ga/admin',},
         ],
 
         smoothScroll: true,
