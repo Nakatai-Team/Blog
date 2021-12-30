@@ -49,17 +49,17 @@ module.exports = {
             nickname: 'Nakatai',
             description: '開発者もどき',
             location: 'Gifu Pref',
-            organization: 'FREESERVER PROJECT',
+            organization: 'FREESERVER PROJECT etc...',
             email: 'info@nakatai.ga',
             avatar: 'https://go.nakatai.ga/icon_trimmed',
             sns: {
                 twitter: {
                     account: 'Nakatai_0322',
-                    link: 'https://twitter.com/Nakatai_0322',
+                    link: 'https://go.nakatai.ga/twitter',
                 },
                 github: {
                     account: "Nakatai-0322",
-                    link: "https://github.com/Nakatai-0322",
+                    link: "https://go.nakatai.ga/github",
                 },
             },
         },
