@@ -13,14 +13,14 @@
   "license": "CC-BY-SA-4.0",
   "repository": "https://github.com/Nakatai-0322/Blog.git",
   "devDependencies": {
-    "@vuepress/plugin-google-analytics": "^1.8.2",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-disqus": "^0.2.0",
-    "vuepress-plugin-google-adsense": "^0.2.1",
-    "vuepress-plugin-rss": "^2.0.0"
+    "vuepress-theme-meteorlxy": "^1.9.0"
   },
   "dependencies": {
     "vuepress-plugin-sitemap": "^2.3.1",
-    "vuepress-theme-meteorlxy": "^1.9.0"
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "vuepress-plugin-disqus": "^0.2.0",
+    "vuepress-plugin-google-adsense": "^0.2.1",
+    "vuepress-plugin-rss": "^2.0.0"
   }
 }
