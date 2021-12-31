@@ -11,8 +11,11 @@ module.exports = {
         ['meta', { name: 'og:image', content: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
         ['link', { href: '/css/style.css', rel: 'stylesheet'}]
     ],
-    locales: 
-        {lang: 'ja-jp'},
+    locales: {
+        '/': {
+            lang: 'ja-jp',
+        },
+    },
     plugins: {
         'vuepress-plugin-rss':{
             base_url: '/',
@@ -87,7 +90,7 @@ module.exports = {
         nav: [
             { text: 'ホーム', link: '/', exact: true },
             { text: '全記事リスト', link: '/posts/', exact: false },
-            { text: 'Admin', link: 'https://nakatai.ga/admin',},
+            { text: 'Admin', link: 'https://nakatai.ga/admin/index.html',},
         ],
 
         smoothScroll: true,
