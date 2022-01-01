@@ -40,7 +40,7 @@ module.exports = {
             copyright: '&copy; 2021~present Nakatai Some Right Reserved.',
             filter: (frontmatter) => { return [true|false] },
             count: 20
-        }
+        },
     },
 
     themeConfig: {
@@ -62,7 +62,7 @@ module.exports = {
                     link: "https://go.nakatai.ga/github",
                 },
             },
-        },
+    },
 
         header: {
             background: {
