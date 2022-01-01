@@ -35,14 +35,12 @@ module.exports = {
             ga: 'UA-209688701-2'
         },
         'vuepress-plugin-rss':{
-            title: 'Nakatai Blog',
-            description: "Nakatai's Blog",
-            feed_url: 'https://nakatai.ga/rss.xml',
+            base_url: '/',
             site_url: 'https://nakatai.ga',
             copyright: '&copy; 2021~present Nakatai Some Right Reserved.',
-            language: 'ja',
+            filter: (frontmatter) => { return [true|false] },
             count: 20
-        },
+        }
     },
 
     themeConfig: {
