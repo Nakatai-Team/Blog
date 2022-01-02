@@ -34,13 +34,10 @@ module.exports = {
         '@vuepress/google-analytics': {
             ga: 'UA-209688701-2'
         },
-        'vuepress-plugin-rss':[
-        {
-            base_url: '/_posts',
-            site_url: 'https://nakatai.ga',
-            copyright: '&copy; 2021-present Nakatai Some Right Reserved.',
-        }]
     },
+    plugins: [
+        [ 'feed', feed_options ]
+    ],
 
     themeConfig: {
         lang: 'ja-JP',

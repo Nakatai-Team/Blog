@@ -14,7 +14,7 @@
   "repository": "https://github.com/Nakatai-0322/Blog.git",
   "devDependencies": {
     "vuepress": "^1.8.2",
-    "vuepress-plugin-rss": "^2.0.0",
+    "vuepress-plugin-feed": "^0.1.9",
     "vuepress-theme-meteorlxy": "^1.9.0"
   },
   "dependencies": {
