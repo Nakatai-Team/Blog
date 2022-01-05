@@ -62,7 +62,7 @@ module.exports = {
 
         header: {
             background: {
-                url: "",
+                // url: '',
                 useGeo: true,
             },
             showTitle: true,
@@ -76,8 +76,8 @@ module.exports = {
 
         infoCard: {
             headerBackground: {
-                // url: '',
-                useGeo: true,
+                url: 'https://nakatai.ga/img/APd7S4w.webp',
+                useGeo: false,
             },
         },
 
