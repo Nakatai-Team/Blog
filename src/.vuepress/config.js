@@ -91,9 +91,6 @@ module.exports = {
 
         smoothScroll: true,
 
-        zooming: {
-        },
-
         pagination: {
             perPage: 5,
         },
