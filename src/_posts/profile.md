@@ -3,7 +3,7 @@ title: "プロフィール"
 description: "Nakataiのプロフィール"
 categories: ["Nakatai"]
 tags: ["プロフィール"]
-date: 2021-01-05
+date: 2022-01-05
 menu: main
 permalink: /profile
 ---
