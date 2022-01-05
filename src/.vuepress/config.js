@@ -86,7 +86,8 @@ module.exports = {
         nav: [
             { text: 'ホーム', link: '/', exact: true },
             { text: '全記事リスト', link: '/posts/', exact: false },
-            { text: 'Admin', link: 'https://nakatai.ga/admin/index.html',},
+            { text: 'Admin', link: 'https://nakatai.ga/admin/index.html'},
+            { text: 'RSS', link: 'https://nakatai.ga/feed.json',},
         ],
 
         smoothScroll: true,
