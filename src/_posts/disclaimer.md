@@ -58,8 +58,10 @@ Twitter:[`@Nakatai_0322`](https://twitter.com/Nakatai_0322)
 
 Discord:`Nakatai_0322#6872`
 
+## 改正履歴
+
 令和3年12月20日  策定
 
 令和3年12月25日「問い合わせについて」の項を追加
 
-※詳細な改正履歴については，[GitHub](https://github.com/Nakatai-0322/nakatai-0322.github.io/commits/main/src/_posts/disclaimer.md)の更新履歴をご覧ください。
+※詳細な改正履歴については，[GitHubの更新履歴](https://github.com/Nakatai-0322/nakatai-0322.github.io/commits/main/src/_posts/disclaimer.md)をご覧ください。
