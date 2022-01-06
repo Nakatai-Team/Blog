@@ -112,11 +112,11 @@ Nakatai（以下，「当ブログ主」といいます。）は，本ウェブ�
 
 Googleが広告Cookieを使用することにより，当サイトや他のサイトにアクセスした際の情報に基づいて，Googleやそのパートナーが適切な広告を表示しています。
 
-お客様はGoogleアカウントの[広告設定ページ](https://adssettings.google.com/u/0/authenticated)で，**パーソナライズ広告を無効にできます。**また`aboutads.info`のページにアクセスして頂き，パーソナライズ広告掲載に使用される第三者配信事業者のCookieを無効にできます。
+お客様はGoogleアカウントの[広告設定ページ](https://adssettings.google.com/u/0/authenticated)で，パーソナライズ広告を無効にできます。また`aboutads.info`のページにアクセスして頂き，パーソナライズ広告掲載に使用される第三者配信事業者のCookieを無効にできます。
 
 その他，Googleの広告におけるCookieの取り扱い詳細については，[Googleのポリシーと規約ページ](https://policies.google.com/technologies/ads)をご覧ください。
 
-## 第10条（お問い合わせ窓口）
+## お問い合わせ窓口について
 
 本ポリシーに関するお問い合わせは，下記の問い合わせ先までお願いいたします。
 
