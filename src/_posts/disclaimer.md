@@ -64,6 +64,6 @@ Discord:`Nakatai_0322#6872`
 
 令和3年12月25日「問い合わせについて」の項を追加
 
-令和4年01月06日 表現の修正
+令和4年01月06日  表現の修正
 
 ※詳細な改正履歴については，[GitHubの更新履歴](https://github.com/Nakatai-0322/blog/commits/main/src/_posts/disclaimer.md)をご覧ください。
