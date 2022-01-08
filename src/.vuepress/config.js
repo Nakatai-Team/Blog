@@ -71,7 +71,7 @@ module.exports = {
         footer: {
             poweredBy: true,
             poweredByTheme: true,
-            custom: '<a href="https://nakatai.ga/policy/disclaimer">免責事項</a> | <a href="https://nakatai.ga/policy/privacypolicy">プライバシーポリシー</a><br> <a href="https://github.com/Nakatai-0322/blog">GitHubソース</a><br>&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> <a href="https://app.netlify.com/sites/nakatai-blog/deploys"><img src="https://api.netlify.com/api/v1/badges/c4ef2306-a8e0-488c-b963-521f2e62c753/deploy-status"></a> ',
+            custom: '<a href="https://nakatai.ga/policy/disclaimer">免責事項</a> | <a href="https://nakatai.ga/policy/privacypolicy">プライバシーポリシー</a><br> <a href="https://github.com/Nakatai-0322/blog">GitHubソース</a><br>&copy; 2021-present Nakatai Some Right Reserved. <br><a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d0/CC-BY-SA_icon.svg" width="200"></a> <br> <a href="https://app.netlify.com/sites/nakatai-blog/deploys"><img src="https://api.netlify.com/api/v1/badges/c4ef2306-a8e0-488c-b963-521f2e62c753/deploy-status"></a> ',
         },
 
         infoCard: {
