@@ -92,7 +92,7 @@ module.exports = {
         smoothScroll: true,
 
         pagination: {
-            perPage: 5,
+            perPage: 10,
         },
 
         defaultPages: {
