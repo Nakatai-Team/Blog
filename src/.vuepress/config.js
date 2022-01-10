@@ -7,8 +7,7 @@ module.exports = {
     theme: 'meteorlxy',
     description: "Nakatai's Blog",
     head: [
-        ['link', { rel: 'icon', href: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
-        ['meta', { name: 'og:image', content: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a' }],
+        ['link', { rel: 'icon', href: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a'}],
         ['link', { href: '/css/style.css', rel: 'stylesheet'}]
     ],
     locales: {
