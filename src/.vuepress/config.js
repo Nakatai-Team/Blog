@@ -46,7 +46,7 @@ module.exports = {
             location: 'Gifu Pref',
             organization: 'FREESERVER PROJECT etc...',
             email: 'info@nakatai.ga',
-            avatar: 'https://go.nakatai.ga/icon_trimmed',
+            avatar: 'img/nakatai.jpeg',
             sns: {
                 twitter: {
                     account: 'Nakatai_0322',
