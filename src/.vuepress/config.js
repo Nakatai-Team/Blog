@@ -8,7 +8,7 @@ module.exports = {
     description: "Nakatai's Blog",
     head: [
         ['link', { rel: 'icon', href: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a'}],
-        ['link', { href: '/css/style.css', rel: 'stylesheet'}]
+        ['link', { href: '/css/style.css', rel: 'stylesheet'}],
     ],
     locales: {
         '/': {
@@ -28,10 +28,10 @@ module.exports = {
             exclude: ["/404.html"],
             dateFormatter: val => {
                 return new Date().toISOString()
-            }
+            },
         },
         '@vuepress/google-analytics': {
-            ga: 'UA-209688701-2'
+            ga: 'UA-209688701-2',
         },
     },
     plugins: [
@@ -75,7 +75,7 @@ module.exports = {
 
         infoCard: {
             headerBackground: {
-                url: 'https://nakatai.ga/img/APd7S4w.webp',
+                url: 'img/header.webp',
                 useGeo: false,
             },
         },
