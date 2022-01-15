@@ -56,7 +56,7 @@ Eメールアドレス:[`info@nakatai.ga`](mailto:info@nakatai.ga)
 
 Twitter:[`@Nakatai_0322`](https://twitter.com/Nakatai_0322)
 
-Discord:`Nakatai_0322#6872`
+Discord:[`Nakatai_0322#6872`](https://discordapp.com/users/584692865939275779)
 
 ## 改正履歴
 
