@@ -46,7 +46,7 @@ module.exports = {
             location: 'Gifu Pref',
             organization: 'FREESERVER PROJECT etc...',
             email: 'info@nakatai.ga',
-            avatar: 'img/nakatai.jpeg',
+            avatar: 'https://cdn.nakatai.ga/img/nakatai.webp',
             sns: {
                 twitter: {
                     account: 'Nakatai_0322',
@@ -75,7 +75,7 @@ module.exports = {
 
         infoCard: {
             headerBackground: {
-                url: 'img/header.webp',
+                url: 'https://cdn.nakatai.ga/img/header.webp',
                 useGeo: false,
             },
         },

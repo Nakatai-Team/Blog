@@ -1,26 +1,26 @@
 {
-  "name": "nakatai-blog",
-  "version": "1.0.0",
-  "description": "Nakatai's Blog",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "eject": "vuepress eject src"
-  },
-  "author": "Nakatai",
-  "license": "CC-BY-SA-4.0",
-  "repository": "https://github.com/Nakatai-0322/Blog.git",
-  "devDependencies": {
-    "vuepress": "^1.8.2",
-    "vuepress-plugin-feed": "^0.1.9",
-    "vuepress-theme-meteorlxy": "^1.9.0"
-  },
-  "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.8.2",
-    "vuepress-plugin-disqus": "^0.2.0",
-    "vuepress-plugin-google-adsense": "^0.2.1",
-    "vuepress-plugin-sitemap": "^2.3.1"
-  }
+    "name": "nakatai-blog",
+    "version": "1.0.0",
+    "description": "Nakatai's Blog",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "vuepress dev src",
+        "build": "vuepress build src",
+        "eject": "vuepress eject src"
+    },
+    "author": "Nakatai",
+    "license": "CC-BY-SA-4.0",
+    "repository": "https://github.com/Nakatai-0322/Blog.git",
+    "devDependencies": {
+        "vuepress": "^1.8.2",
+        "vuepress-plugin-feed": "^0.1.9",
+        "vuepress-theme-meteorlxy": "^1.9.0"
+    },
+    "dependencies": {
+        "@vuepress/plugin-google-analytics": "^1.8.2",
+        "vuepress-plugin-disqus": "^0.2.0",
+        "vuepress-plugin-google-adsense": "^0.2.1",
+        "vuepress-plugin-sitemap": "^2.3.1"
+    }
 }
