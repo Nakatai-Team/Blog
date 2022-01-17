@@ -44,4 +44,4 @@ DiscordのIDは，`Nakatai_0322#6872`
 
 よろしくお願いします！
 
-  <img src="https://i.imgur.com/nccwxxa.png" width="500" alt="サイン">
+  <img src="https://cdn.nakatai.ga/img/sign.webp" width="500" alt="サイン">
