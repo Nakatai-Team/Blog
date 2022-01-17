@@ -85,7 +85,7 @@ module.exports = {
         nav: [
             { text: 'ホーム', link: '/', exact: true },
             { text: '全記事リスト', link: '/posts/', exact: false },
-            { text: 'RSS', link: 'https://nakatai.ga/feed.json'},
+            { text: 'RSS', link: 'https://nakatai.ga/rss.xml'},
             { text: 'GitHub', link: "https://github.com/Nakatai-0322/blog"},
         ],
 
