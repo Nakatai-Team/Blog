@@ -1,3 +1,6 @@
+name: MDLint
+on: [push]
+
 jobs:
   lint-changelog:
     name: Lint changelog file
