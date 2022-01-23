@@ -26,12 +26,14 @@
 
 <script>
 import PostMeta from '@theme/components/PostMeta.vue'
+import PostDisqus from '../components/PostDisqus.vue'
 
 export default {
   name: 'Post',
 
   components: {
     PostMeta,
+    PostDisqus,
   },
 
   computed: {
