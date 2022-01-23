@@ -26,7 +26,7 @@
 
 <script>
 import PostMeta from '@theme/components/PostMeta.vue'
-import PostDisqus from '../components/PostDisqus.vue'
+import PostDisqus from '../components/Disqus.vue'
 
 export default {
   name: 'Post',
