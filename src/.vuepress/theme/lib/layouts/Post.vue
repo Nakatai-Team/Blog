@@ -26,32 +26,32 @@
 
 <script>
 import PostMeta from '@theme/components/PostMeta.vue'
-import PostDisqus from '../components/Disqus.vue'
+import Disqus from '../components/Disqus.vue'
 
 export default {
-  name: 'Post',
+    name: 'Post',
 
-  components: {
-    PostMeta,
-    Disqus,
-  },
-
-  computed: {
-    meta () {
-      return this.$frontmatter.meta !== false
+    components: {
+        PostMeta,
+        Disqus,
     },
 
-    vssue () {
-      return this.$themeConfig.comments !== false && this.$frontmatter.vssue !== false && (this.vssueTitle || this.vssueId)
-    },
+    computed: {
+        meta () {
+            return this.$frontmatter.meta !== false
+        },
 
-    vssueTitle () {
-      return this.$frontmatter['vssue-title'] || this.$frontmatter.title || undefined
-    },
+        vssue () {
+            return this.$themeConfig.comments !== false && this.$frontmatter.vssue !== false && (this.vssueTitle || this.vssueId)
+        },
 
-    vssueId () {
-      return this.$frontmatter['vssue-id'] || undefined
+        vssueTitle () {
+            return this.$frontmatter['vssue-title'] || this.$frontmatter.title || undefined
+        },
+
+        vssueId () {
+            return this.$frontmatter['vssue-id'] || undefined
+        },
     },
-  },
 }
 </script>

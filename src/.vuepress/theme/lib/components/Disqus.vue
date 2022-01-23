@@ -1,10 +1,10 @@
 <template>
-    <div id="disqus"></div>
+    <div id="Disqus"></div>
 </template>
 
 <script>
 export default {
-    name: 'PostDisqus',
+    name: 'Disqus',
     
     mounted() {
     var disqus_config = function () {
