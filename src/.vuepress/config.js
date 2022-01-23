@@ -1,19 +1,19 @@
 const feed_options = {
-    canonical_base: 'https://nakatai.ga',
+    canonical_base: "https://nakatai.ga",
 };
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-    title: 'Nakatai Blog',
+    title: "Nakatai Blog",
     theme: "vuepress-theme-meteorlxy",
     description: "Nakatai's Blog",
     head: [
-        ['link', { rel: 'icon', href: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a'}],
-        ['link', { href: '/css/style.css', rel: 'stylesheet'}],
+        ["link", { rel: "icon", href: "//minotar.net/helm/d297f52003024e5d944fd78edc82891a"}],
+        ["link", { href: "/css/style.css", rel: "stylesheet"}],
     ],
     locales: {
-        '/': {
-            lang: 'ja-jp',
+        "/": {
+            lang: "ja-jp",
         },
     },
     plugins: {
@@ -24,49 +24,49 @@ module.exports = {
             adClient: "ca-pub-2041303981654233",
             adsTxt: true,
         },
-        'sitemap': {
-            hostname: 'https://nakatai.ga',
+        "sitemap": {
+            hostname: "https://nakatai.ga",
             exclude: ["/404.html"],
             dateFormatter: val => {
                 return new Date().toISOString()
             },
         },
-        '@vuepress/google-analytics': {
-            ga: 'UA-209688701-2',
+        "@vuepress/google-analytics": {
+            ga: "UA-209688701-2",
         },
     },
     plugins: [
-        [ 'feed', feed_options ]
+        [ "feed", feed_options ]
     ],
 
     themeConfig: {
-        lang: 'ja-JP',
+        lang: "ja-JP",
         personalInfo: {
-            nickname: 'Nakatai',
-            description: '開発者もどき',
-            location: 'Gifu Pref',
-            organization: 'FREESERVER PROJECT etc...',
-            email: 'info@nakatai.ga',
-            avatar: 'https://cdn.nakatai.ga/img/nakatai.webp',
+            nickname: "Nakatai",
+            description: "開発者もどき",
+            location: "Gifu Pref",
+            organization: "FREESERVER PROJECT etc...",
+            email: "info@nakatai.ga",
+            avatar: "https://cdn.nakatai.ga/img/nakatai.webp",
             sns: {
                 twitter: {
-                    account: 'Nakatai_0322',
-                    link: 'https://go.nakatai.ga/twitter',
+                    account: "Nakatai_0322",
+                    link: "https://go.nakatai.ga/twitter",
                 },
                 github: {
                     account: "Nakatai-0322",
                     link: "https://go.nakatai.ga/github",
                 },
                 instagram: {
-                    account: 'Nakatai_0322',
-                    link: 'https://go.nakatai.ga/instagram',
+                    account: "Nakatai_0322",
+                    link: "https://go.nakatai.ga/instagram",
                 },
             },
     },
 
         header: {
             background: {
-                // url: '',
+                // url: "",
                 useGeo: true,
             },
             showTitle: true,
@@ -80,7 +80,7 @@ module.exports = {
 
         infoCard: {
             headerBackground: {
-                url: 'https://cdn.nakatai.ga/img/header.webp',
+                url: "https://cdn.nakatai.ga/img/header.webp",
                 useGeo: false,
             },
         },
@@ -88,10 +88,10 @@ module.exports = {
         lastUpdated: true,
 
         nav: [
-            { text: 'ホーム', link: '/', exact: true },
-            { text: '全記事リスト', link: '/posts/', exact: false },
-            { text: 'RSS', link: 'https://nakatai.ga/rss.xml'},
-            { text: 'GitHub', link: "https://github.com/Nakatai-0322/blog"},
+            { text: "ホーム", link: "/", exact: true },
+            { text: "全記事リスト", link: "/posts/", exact: false },
+            { text: "RSS", link: "https://nakatai.ga/rss.xml"},
+            { text: "GitHub", link: "https://github.com/Nakatai-0322/blog"},
         ],
 
         smoothScroll: true,
