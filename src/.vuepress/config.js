@@ -75,7 +75,23 @@ module.exports = {
         footer: {
             poweredBy: true,
             poweredByTheme: true,
-            custom: '<a href="/policy/disclaimer">免責事項</a> | <a href="/policy/privacypolicy">プライバシーポリシー</a><br>&copy; 2021-present Nakatai Some Right Reserved. <br><a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="https://nakatai.ga" property="cc:attributionName" rel="cc:attributionURL">Nakatai</a> の "<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Nakatai Blog</span>"は<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>で提供されています。 <br> <a href="https://app.netlify.com/sites/nakatai-blog/deploys"><img src="https://api.netlify.com/api/v1/badges/c4ef2306-a8e0-488c-b963-521f2e62c753/deploy-status"></a> ',
+            custom: `<a href="/policy/disclaimer">免責事項</a> |
+                     <a href="/policy/privacypolicy">プライバシーポリシー</a>
+                     <br>&copy; 2021-present Nakatai Some Right Reserved. <br>
+                     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                         <img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/by-sa.svg">
+                     </a><br>
+                     <a xmlns:cc="http://creativecommons.org/ns#" href="https://nakatai.ga" property="cc:attributionName" rel="cc:attributionURL">
+                         Nakatai
+                     </a> の "
+                     <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">
+                         Nakatai Blog
+                     </span>"は
+                     <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                         クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス
+                     </a>で提供されています。 <br>
+                     <a href="https://app.netlify.com/sites/nakatai-blog/deploys">
+                         <img src="https://api.netlify.com/api/v1/badges/c4ef2306-a8e0-488c-b963-521f2e62c753/deploy-status"></a> `,
         },
 
         infoCard: {
