@@ -33,7 +33,7 @@ export default {
 
   components: {
     PostMeta,
-    PostDisqus,
+    Disqus,
   },
 
   computed: {
