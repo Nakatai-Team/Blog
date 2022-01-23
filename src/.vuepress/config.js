@@ -17,6 +17,9 @@ module.exports = {
         },
     },
     plugins: {
+        "vuepress-plugin-disqus":{
+            shortname: "blog-nakatai-ga",
+        },
         "vuepress-plugin-google-adsense":{
             adClient: "ca-pub-2041303981654233",
             adsTxt: true,

@@ -11,29 +11,29 @@
 
     <PostMeta v-if="meta" />
 
-    <div
-      v-if="vssue"
-      id="post-comments"
-      class="main-div"
-    >
-      <Vssue
-        :title="vssueTitle"
-        :issue-id="vssueId"
-      />
+        <div
+        v-if="vssue"
+        id="post-comments"
+        class="main-div"
+        >
+            <Vssue
+            :title="vssueTitle"
+            :issue-id="vssueId"
+            />
+        </div>
+        <Disqus>
     </div>
-  </div>
+
 </template>
 
 <script>
 import PostMeta from '@theme/components/PostMeta.vue'
-import Disqus from '../components/Disqus.vue'
 
 export default {
     name: 'Post',
 
     components: {
         PostMeta,
-        Disqus,
     },
 
     computed: {
