@@ -1,10 +1,11 @@
 const feed_options = {
     canonical_base: 'https://nakatai.ga',
 };
+const path = require('path');
 
 module.exports = {
     title: 'Nakatai Blog',
-    theme: 'meteorlxy',
+    theme: path.resolve(__dirname, './theme/lib'),
     description: "Nakatai's Blog",
     head: [
         ['link', { rel: 'icon', href: '//minotar.net/helm/d297f52003024e5d944fd78edc82891a'}],
@@ -16,9 +17,6 @@ module.exports = {
         },
     },
     plugins: {
-        "disqus": {
-            "shortname":"blog-nakatai-ga"
-        },
         "vuepress-plugin-google-adsense":{
             adClient: "ca-pub-2041303981654233",
             adsTxt: true,
@@ -55,6 +53,10 @@ module.exports = {
                 github: {
                     account: "Nakatai-0322",
                     link: "https://go.nakatai.ga/github",
+                },
+                instagram: {
+                    account: 'Nakatai_0322',
+                    link: 'https://go.nakatai.ga/instagram',
                 },
             },
     },
