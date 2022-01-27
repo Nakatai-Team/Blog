@@ -61,6 +61,10 @@ module.exports = {
                     account: "Nakatai_0322",
                     link: "https://go.nakatai.ga/instagram",
                 },
+                reddit: {
+                    account: 'Nakatai_0322',
+                    link: 'https://www.reddit.com/user/Objective_Pass_875',
+                },
             },
     },
 
