@@ -1,3 +1,0 @@
-[submodule "theme"]
-	path = /.vuepress/theme
-	url = https://github.com/meteorlxy/vuepress-theme-meteorlxy.git
