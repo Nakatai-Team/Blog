@@ -10,7 +10,7 @@
 | ドメイン                               | 概要                   |
 | ---------------------------------- | -------------------- |
 | <https://nakatai.ga>               | メインドメイン              |
-| <https://blog.nakatai.ga>          | 互換のために残しているドメイン（非推奨） |
+| <https://blog.nakatai.ga>          | 互換のために残しているドメイン（レイアウト崩れなどのため非推奨） |
 | <https://nakatai-blog.netlify.app> | Netlifyのサブドメイン       |
 | <https://nakatai-0322.github.io>   | メインドメインにリダイレクト       |
 

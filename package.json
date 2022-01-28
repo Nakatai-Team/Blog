@@ -3,7 +3,6 @@
     "version": "1.0.0",
     "description": "Nakatai's Blog",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "dev": "vuepress dev src",
         "build": "vuepress build src",
         "eject": "vuepress eject src"
