@@ -27,7 +27,7 @@ permalink: /profile
 ## 連絡先
 
 TwitterのIDは，[`@Nakatai_0322`](https://twitter.com/Nakatai_0322)
-DiscordのIDは，`Nakatai_0322#6872`
+DiscordのIDは，[`Nakatai_0322#6872`](https://discord.com/users/584692865939275779)
 となります。
 
 ## ブログに対する意気込み
@@ -36,7 +36,7 @@ DiscordのIDは，`Nakatai_0322#6872`
 
 そして，かんたんにその「知識」を共有してもらいたいと思っています。
 
-その取り組みの一例として，[「クリエイティブ・コモンズ・ライセンス」](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)の適用があります。
+その取り組みの一例として，「[クリエイティブ・コモンズ・ライセンス](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)」の適用があります。
 
 このライセンスは，「作品を複製、頒布、展示、実演を行うにあたり、著作権者の表示を要求し、作品を改変・変形・加工してできた作品についても、元になった作品と同じライセンスを継承させた上で頒布を認める」という趣旨のものであり，共有にはもってこいのライセンスとなります。
 
@@ -44,4 +44,4 @@ DiscordのIDは，`Nakatai_0322#6872`
 
 よろしくお願いします！
 
-  <img src="https://cdn.nakatai.ga/img/sign.webp" width="500" alt="サイン">
+<img src="https://cdn.nakatai.ga/img/sign.webp" width="500" alt="サイン">
