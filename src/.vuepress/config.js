@@ -79,8 +79,8 @@ module.exports = {
         footer: {
             poweredBy: true,
             poweredByTheme: true,
-            custom:
-                `<a href="/policy/disclaimer">
+            custom: `
+                <a href="/policy/disclaimer">
                     免責事項
                 </a> |
                 <a href="/policy/privacypolicy">
