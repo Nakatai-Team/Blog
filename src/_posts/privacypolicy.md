@@ -1,7 +1,9 @@
 ---
 title: "プライバシーポリシー"
-categories: ["ポリシー"]
-tags: ["ポリシー"]
+categories: 
+    - "ポリシー"
+tags: 
+    - "ポリシー"
 date: 2021-12-20
 menu: main
 permalink: /policy/privacypolicy/
