@@ -8,11 +8,11 @@ module.exports = {
     theme: "vuepress-theme-meteorlxy",
     description: "Nakatai's Blog",
     head: [
-        ["link", { rel: "icon", href: "//minotar.net/helm/d297f52003024e5d944fd78edc82891a"}],
-        ["link", { href: "/css/style.css", rel: "stylesheet"}],
-        ["meta", { charset: "UTF-8"}],
-        ["meta", { "http-equiv": "X-UA-Compatible", content: "IE=edge"}],
-        ["meta", { name: "viewport", content: "width=device-width, initial-scale=1.0"}]
+        ["link", { rel: "icon", href: "//minotar.net/helm/d297f52003024e5d944fd78edc82891a" }],
+        ["link", { href: "/css/style.css", rel: "stylesheet" }],
+        ["meta", { charset: "UTF-8" }],
+        ["meta", { "http-equiv": "X-UA-Compatible", content: "IE=edge" }],
+        ["meta", { name: "viewport", content: "width=device-width, initial-scale=1.0" }]
     ],
     locales: {
         "/": {
@@ -20,10 +20,10 @@ module.exports = {
         },
     },
     plugins: {
-        "vuepress-plugin-disqus":{
+        "vuepress-plugin-disqus": {
             shortname: "blog-nakatai-ga",
         },
-        "vuepress-plugin-google-adsense":{
+        "vuepress-plugin-google-adsense": {
             adClient: "ca-pub-2041303981654233",
             adsTxt: true,
         },
@@ -39,7 +39,7 @@ module.exports = {
         },
     },
     plugins: [
-        [ "feed", feed_options ]
+        ["feed", feed_options]
     ],
 
     themeConfig: {
@@ -69,7 +69,7 @@ module.exports = {
                     link: 'https://www.reddit.com/user/Nakatai_0322',
                 },
             },
-    },
+        },
 
         header: {
             background: {
@@ -124,8 +124,8 @@ module.exports = {
         nav: [
             { text: "ホーム", link: "/", exact: true },
             { text: "全記事リスト", link: "/posts/", exact: false },
-            { text: "RSS", link: "https://nakatai.ga/rss.xml"},
-            { text: "GitHub", link: "https://github.com/Nakatai-0322/blog"},
+            { text: "RSS", link: "https://nakatai.ga/rss.xml" },
+            { text: "GitHub", link: "https://github.com/Nakatai-0322/blog" },
         ],
 
         smoothScroll: true,
