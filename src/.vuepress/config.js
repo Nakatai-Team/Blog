@@ -66,7 +66,7 @@ module.exports = {
                 },
                 reddit: {
                     account: 'Nakatai_0322',
-                    link: 'https://www.reddit.com/user/Nakatai_0322',
+                    link: 'https://go.nakatai.ga/reddit',
                 },
             },
         },
