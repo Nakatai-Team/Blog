@@ -85,7 +85,7 @@ module.exports = {
             custom: `
                 <a href="/policy/disclaimer">
                     免責事項
-                </a> |
+                </a>&nbsp;|&nbsp;
                 <a href="/policy/privacypolicy">
                     プライバシーポリシー
                 </a>
