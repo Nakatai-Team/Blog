@@ -42,11 +42,23 @@ Nakatai Blog（[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README
 
 ## 当サイトの著作権について
 
-当サイトのコンテンツは、**当サイトの管理者が管理する部分のみ**、「[クリエイティブ・コモンズ 表示-継承](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)」のライセンスによって提供されています。
+当サイトのコンテンツは、**当サイトの管理者が管理する部分のみ**、「[クリエイティブ・コモンズ 表示-継承](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)」によって提供されています。
 
-これは、作品を複製、頒布、展示、実演を行うにあたり、著作権者の表示を要求し、作品を改変・変形・加工してできた作品についても、元になった作品と同じライセンスを継承させた上で頒布を認めるという趣旨のものであります。
+[当サイトを構成するソースコード](https://github.com/Nakatai-0322/Blog)は、"Apache License 2.0"によって提供されています。
 
-詳しくは、[ライセンスの原文](https://creativecommons.org/licenses/by-sa/4.0/legalcode)（英文）をご覧ください。
+前者は、作品を複製・頒布・展示・実演するにあたり著作権者の表示を要求し、作品を改変・変形・加工してできた作品についても元になった作品と同じライセンスを継承させた上で頒布を認めるという趣旨のものであり、
+
+後者は、ユーザーがソースコードの使用や配布、修正、派生版の頒布をすることを制限しないという趣旨であります。
+
+※上記は、管理者によるライセンスの要約であり、各ライセンスのリーガルコードと齟齬が生じた場合はリーガルコードを優先するものとする。
+
+詳しくは、[「クリエイティブ・コモンズ 表示-継承」ライセンスのリーガルコード](https://creativecommons.org/licenses/by-sa/4.0/legalcode)（英文）及び、["Apache License 2.0"のリーガルコード](https://www.apache.org/licenses/LICENSE-2.0.txt)をご覧ください。
+
+## 紛争解決について
+
+本規約の解釈は、[日本国法](https://elaws.e-gov.go.jp/)によるものとします。
+
+本規約は当サイトの管理者とユーザーとの紛争については、岐阜地方裁判所を専属的合意管轄裁判所とします。
 
 ## 問い合わせについて
 
@@ -54,9 +66,9 @@ Nakatai Blog（[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README
 
 Eメールアドレス:[`info@nakatai.ga`](mailto:info@nakatai.ga)
 
-Twitter:[`@Nakatai_0322`](https://twitter.com/Nakatai_0322)
+Twitter:[`@Nakatai_0322`](https://go.nakatai.ga/twitter)
 
-Discord:[`Nakatai_0322#6872`](https://discord.com/users/584692865939275779)
+Discord:[`Nakatai_0322#6872`](https://go.nakatai.ga/discord)
 
 ## 改正履歴
 
@@ -65,6 +77,8 @@ Discord:[`Nakatai_0322#6872`](https://discord.com/users/584692865939275779)
 令和03年12月25日「問い合わせについて」の項を追加
 
 令和04年01月06日  表現の修正
+
+令和04年03月28日  デュアルライセンス化及び「紛争解決について」の項を追加
 
 ※なお、軽微な変更は改正履歴に含めておりません。予めご了承ください。
 
