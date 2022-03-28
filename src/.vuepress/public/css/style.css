@@ -2,5 +2,5 @@
 @import url("//fonts.googleapis.com/css2?&family=Noto+Sans+JP&display=swap");
 
 body {
-    font-family: "Montserrat" , "Noto Sans JP", "Arial", "Yu Gothic UI" !important; 
+    font-family: "Montserrat" , "Noto Sans JP", sans-serif !important;
 }
