@@ -44,7 +44,7 @@ Nakatai Blog（[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README
 
 当サイトのコンテンツは、**当サイトの管理者が管理する部分のみ**、「[クリエイティブ・コモンズ 表示-継承](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)」によって提供されています。
 
-[当サイトを構成するソースコード](https://github.com/Nakatai-0322/Blog)は、"Apache License 2.0"によって提供されています。
+[当サイトを構成するソースコード](https://github.com/Nakatai-0322/Blog)は、"[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)"によって提供されています。
 
 前者は、作品を複製・頒布・展示・実演するにあたり著作権者の表示を要求し、作品を改変・変形・加工してできた作品についても元になった作品と同じライセンスを継承させた上で頒布を認めるという趣旨のものであり、
 
