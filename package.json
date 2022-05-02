@@ -7,9 +7,18 @@
         "build": "vuepress build src",
         "eject": "vuepress eject src"
     },
-    "author": "Nakatai",
-    "license": "CC-BY-SA-4.0",
-    "repository": "https://github.com/Nakatai-0322/Blog.git",
+    "author": {
+        "name": "Nakatai-0322",
+        "email": "info@nakatai.ga",
+        "url": "http://nakatai.ga"
+    },
+    "license": "Apache-2.0",
+    "licenses": [
+        {
+            "type": "Apache-2.0",
+            "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],    "repository": "https://github.com/Nakatai-0322/Blog.git",
     "devDependencies": {
         "vuepress": "^1.8.2",
         "vuepress-plugin-disqus": "^0.2.0",
