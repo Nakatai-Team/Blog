@@ -106,9 +106,6 @@ module.exports = {
                     クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス
                 </a>で提供されています。
                 <br>
-                <a href="https://app.netlify.com/sites/nakatai-blog/deploys">
-                    <img src="https://api.netlify.com/api/v1/badges/c4ef2306-a8e0-488c-b963-521f2e62c753/deploy-status" width="135" height="20">
-                </a>
                 `,
         },
 
