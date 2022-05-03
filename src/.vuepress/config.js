@@ -47,7 +47,7 @@ module.exports = {
         personalInfo: {
             nickname: "Nakatai",
             description: "開発者もどき",
-            location: "Gifu Pref",
+            location: "Japan, Gifu Pref.(JP-21)",
             organization: "FREESERVER PROJECT etc...",
             email: "info@nakatai.ga",
             avatar: "https://cdn.nakatai.ga/img/nakatai.webp",
