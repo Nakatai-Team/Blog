@@ -83,8 +83,8 @@ module.exports = {
             poweredBy: true,
             poweredByTheme: true,
             custom: `
-                <a href="/policy/disclaimer">
-                    免責事項
+                <a href="/policy/tos">
+                    利用規約
                 </a>&nbsp;|&nbsp;
                 <a href="/policy/privacypolicy">
                     プライバシーポリシー
