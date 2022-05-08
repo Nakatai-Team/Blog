@@ -31,7 +31,7 @@ Nakatai Blog（[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README
 
 - 特定の自然人または法人を誹謗し、中傷するもの
 - 極度にわいせつな内容を含むもの
-- 物品の取引に関するものや、他者を害する行為の依頼など、法律によって禁止されている物品、行為の依頼や斡旋などに関するもの
+- 物品・役務の取引に関するものや、他者を害する行為の依頼など、法律によって禁止されている物品、行為の依頼や斡旋などに関するもの
 - その他、公序良俗に反し、または管理人によって承認すべきでないと認められるもの
 
 ## サイト管理者の義務・情報の正確性
@@ -96,7 +96,7 @@ Discord:[`Nakatai_0322#6872`](https://go.nakatai.ga/discord)
 
 令和03年12月20日  策定
 
-令和03年12月25日　　「問い合わせについて」の項を追加
+令和03年12月25日「問い合わせについて」の項を追加
 
 令和04年01月06日  表現の修正
 
@@ -104,4 +104,4 @@ Discord:[`Nakatai_0322#6872`](https://go.nakatai.ga/discord)
 
 ※なお、軽微な変更は改正履歴に含めておりません。予めご了承ください。
 
-※詳細な改正履歴については、[GitHubの更新履歴](https://github.com/Nakatai-0322/blog/commits/main/src/_posts/disclaimer.md)をご覧ください。
+※詳細な改正履歴については、[GitHubの更新履歴](https://github.com/Nakatai-0322/blog/commits/main/src/_posts/tos.md)をご覧ください。
