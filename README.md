@@ -1,6 +1,5 @@
 # Nakatai Blog
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/c4ef2306-a8e0-488c-b963-521f2e62c753/deploy-status)](https://app.netlify.com/sites/nakatai-blog/deploys)
 [![Deploy](https://github.com/Nakatai-0322/Blog/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/Nakatai-0322/Blog/actions/workflows/pages.yml)
 
 [![wakatime](https://wakatime.com/badge/github/Nakatai-0322/Blog.svg)](https://wakatime.com/badge/github/Nakatai-0322/Blog)
