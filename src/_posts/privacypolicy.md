@@ -119,6 +119,10 @@ Googleが広告Cookieを使用することにより、当サイトや他のサ�
 
 その他、Googleの広告におけるCookieの取り扱い詳細については、[Googleのポリシーと規約ページ](https://policies.google.com/technologies/ads)をご覧ください。
 
+### Amazonアソシエイト
+
+当ブログ主は、Amazon.co.jpを宣伝しリンクすることによってサイトが紹介料を獲得できる手段を提供することを目的に設定されたアフィリエイトプログラムである、Amazonアソシエイト・プログラムの参加者です。
+
 ## 紛争解決について
 
 本ポリシーの解釈は、[日本国法](https://elaws.e-gov.go.jp/)によるものとします。
