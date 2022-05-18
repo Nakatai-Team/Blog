@@ -13,6 +13,7 @@ module.exports = {
         ["meta", { charset: "UTF-8" }],
         ["meta", { "http-equiv": "X-UA-Compatible", content: "IE=edge" }],
         ["meta", { name: "viewport", content: "width=device-width, initial-scale=1.0" }],
+        ["script", { async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2041303981654233", crossorigin: "anonymous" }]
     ],
     locales: {
         "/": {
@@ -22,10 +23,6 @@ module.exports = {
     plugins: {
         "vuepress-plugin-disqus": {
             shortname: "blog-nakatai-ga",
-        },
-        "vuepress-plugin-google-adsense": {
-            adClient: "ca-pub-2041303981654233",
-            adsTxt: true,
         },
         "sitemap": {
             hostname: "https://nakatai.ga",
