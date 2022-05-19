@@ -40,7 +40,9 @@ module.exports = {
         lang: "ja-JP",
         personalInfo: {
             nickname: "Nakatai",
-            description: "開発者もどき",
+            description: `
+            開発者もどき<br><a href="/profile">プロフィール</a>
+            `,
             location: "Japan, Gifu Pref.(JP-21)",
             organization: "FREESERVER PROJECT etc...",
             email: "info@nakatai.ga",
