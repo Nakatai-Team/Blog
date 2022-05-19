@@ -27,7 +27,6 @@
     },
     "dependencies": {
         "@vuepress/plugin-google-analytics": "^1.8.2",
-        "vuepress-plugin-google-adsense": "^0.2.1",
         "vuepress-plugin-sitemap": "^2.3.1"
     }
 }

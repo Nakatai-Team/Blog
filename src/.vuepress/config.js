@@ -31,9 +31,6 @@ module.exports = {
                 return new Date().toISOString()
             },
         },
-        "@vuepress/google-analytics": {
-            ga: "UA-209688701-2",
-        },
     },
     plugins: [
         ["feed", feed_options]
