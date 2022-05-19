@@ -12,6 +12,7 @@
 | <https://blog.nakatai.ga>          | 互換のために残しているドメイン（レイアウト崩れなどのため非推奨） |
 | <https://nakatai-blog.netlify.app> | Netlifyのサブドメイン       |
 | <https://nakatai-0322.github.io>   | メインドメインにリダイレクト       |
+| <https://nakatai.xyz> ||
 
 ## ブランチリスト
 
