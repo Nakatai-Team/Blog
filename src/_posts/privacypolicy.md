@@ -135,6 +135,6 @@ Googleが広告Cookieを使用することにより、当サイトや他のサ�
 
 Eメールアドレス:[`info@nakatai.ga`](mailto:info@nakatai.ga)
 
-Twitter:[`@Nakatai_0322`](https://twitter.com/Nakatai_0322)
+Twitter:[`@Nakatai_0322`](https://go.nakatai.ga/twitter)
 
-Discord:[`Nakatai_0322#6872`](https://discordapp.com/users/584692865939275779)
+Discord:[`Nakatai_0322#6872`](https://go.nakatai.ga/discord)
