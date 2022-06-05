@@ -17,6 +17,10 @@
         {
             "type": "Apache-2.0",
             "url": "http://www.apache.org/licenses/LICENSE-2.0"
+        },
+        {
+            "type": "CC-BY-SA-4.0",
+            "url": "https://creativecommons.org/licenses/by/4.0/"
         }
     ],
     "repository": "https://github.com/Nakatai-0322/Blog.git",
