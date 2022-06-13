@@ -1,6 +1,6 @@
 ---
 title: "リア友に身バレした話"
-date: 2022-05-02
+date: 2022-06-13
 categories:
     - ブログ
 tags:
