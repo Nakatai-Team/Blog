@@ -66,17 +66,15 @@ Nakatai Blog（[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README
 
 ## 当サイトの著作権
 
-当サイトのコンテンツは、当サイトの管理者が管理する部分のみ、「[クリエイティブ・コモンズ 表示-継承](https://creativecommons.org/licenses/by-sa/4.0/deed.ja)」によって提供されています。
+当サイトのコンテンツ又は[当サイトを構成するソースコード](https://github.com/Nakatai-0322/Blog)は、当サイトの管理者が管理する部分のみ、「[クリエイティブ・コモンズ 表示](https://creativecommons.org/licenses/by/4.0/deed.ja)」ライセンス又は、"[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)"によって提供されています。
 
-[当サイトを構成するソースコード](https://github.com/Nakatai-0322/Blog)は、"[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)"によって提供されています。
+前者は、作品を複製・頒布・展示・実演するにあたり著作権者の表示を要求した上で頒布を認めるという趣旨のものであり後者に比べるとコンテンツに適したライセンスであります。
 
-前者は、作品を複製・頒布・展示・実演するにあたり著作権者の表示を要求し、作品を改変・変形・加工してできた作品についても元になった作品と同じライセンスを継承させた上で頒布を認めるという趣旨のものであり、
+後者は、ユーザーが著作権者のソースコードの使用や配布、修正、派生版の頒布をすることを制限せず、再配布する場合は"Apache License 2.0"のライセンス条文のコピーを提供すること、改変したものを配布する場合は、変更点を明記することなどから成るという趣旨であります。
 
-後者は、ユーザーがソースコードの使用や配布、修正、派生版の頒布をすることを制限しないという趣旨であります。
+※上記は、管理者によるライセンスの要約であり、各ライセンスのリーガルコードと齟齬が生じた場合はリーガルコードを優先するものとします。
 
-※上記は、管理者によるライセンスの要約であり、各ライセンスのリーガルコードと齟齬が生じた場合はリーガルコードを優先するものとする。
-
-詳しくは、[「クリエイティブ・コモンズ 表示-継承」ライセンスのリーガルコード](https://creativecommons.org/licenses/by-sa/4.0/legalcode)（英文）及び、["Apache License 2.0"のリーガルコード](https://www.apache.org/licenses/LICENSE-2.0.txt)をご覧ください。
+詳しくは、[「クリエイティブ・コモンズ 表示-継承」ライセンスのリーガルコード](https://creativecommons.org/licenses/by/4.0/legalcode)（英文）及び、["Apache License 2.0"のリーガルコード](https://www.apache.org/licenses/LICENSE-2.0.txt)（英文）をご覧ください。
 
 ## 紛争解決
 
@@ -103,6 +101,8 @@ Discord:[`Nakatai_0322#6872`](https://go.nakatai.ga/discord)
 令和04年01月06日  表現の修正
 
 令和04年03月28日  デュアルライセンス化及び「紛争解決について」の項を追加
+
+令和04年06月18日  ライセンスの変更（"Creative Commons Attribution-ShareAlike" → "Creative Commons Attribution"）
 
 ※なお、軽微な変更は改正履歴に含めておりません。予めご了承ください。
 
