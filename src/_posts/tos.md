@@ -74,7 +74,7 @@ Nakatai Blog（[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README
 
 ※上記は、管理者によるライセンスの要約であり、各ライセンスのリーガルコードと齟齬が生じた場合はリーガルコードを優先するものとします。
 
-詳しくは、[「クリエイティブ・コモンズ 表示-継承」ライセンスのリーガルコード](https://creativecommons.org/licenses/by/4.0/legalcode)（英文）及び、["Apache License 2.0"のリーガルコード](https://www.apache.org/licenses/LICENSE-2.0.txt)（英文）をご覧ください。
+詳しくは、[「クリエイティブ・コモンズ 表示-継承」ライセンスのリーガルコード](https://creativecommons.org/licenses/by/4.0/legalcode.txt)（英文）及び、["Apache License 2.0"のリーガルコード](https://www.apache.org/licenses/LICENSE-2.0.txt)（英文）をご覧ください。
 
 ## 紛争解決
 
