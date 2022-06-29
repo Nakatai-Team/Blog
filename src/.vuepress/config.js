@@ -5,13 +5,12 @@ const path = require("path");
 
 module.exports = {
     title: "Nakatai Blog",
-    theme: "vuepress-theme-meteorlxy",
+    theme: path.resolve(__dirname, "theme/index.js"),
     description: "Nakatai's Blog",
     head: [
+        ["meta", { charset: "UTF-8" }],
         ["link", { rel: "icon", href: "//minotar.net/helm/d297f52003024e5d944fd78edc82891a" }],
         ["link", { href: "/css/style.css", rel: "stylesheet" }],
-        ["meta", { charset: "UTF-8" }],
-        ["meta", { "http-equiv": "X-UA-Compatible", content: "IE=edge" }],
         ["meta", { name: "viewport", content: "width=device-width, initial-scale=1.0" }],
         ["script", { async: true, src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2041303981654233", crossorigin: "anonymous" }],
     ],
