@@ -1,13 +1,9 @@
 <template>
-  <div class="tag">
-    <PostsFilter
-      v-model="posts"
-      :posts="$tag.posts"
-      :tags="false"
-    />
+    <div class="tag">
+        <PostsFilter v-model="posts" :posts="$tag.posts" :tags="false" />
 
-    <PostsList :posts="posts" />
-  </div>
+        <PostsList :posts="posts" />
+    </div>
 </template>
 
 <script>
@@ -15,21 +11,21 @@ import PostsFilter from '@theme/components/PostsFilter.vue'
 import PostsList from '@theme/components/PostsList.vue'
 
 export default {
-  name: 'Tag',
+    name: 'Tag',
 
-  components: {
-    PostsFilter,
-    PostsList,
-  },
+    components: {
+        PostsFilter,
+        PostsList,
+    },
 
-  data () {
-    return {
-      posts: null,
-    }
-  },
+    data() {
+        return {
+            posts: null,
+        }
+    },
 
-  created () {
-    this.posts = this.$tag.posts
-  },
+    created() {
+        this.posts = this.$tag.posts
+    },
 }
 </script>

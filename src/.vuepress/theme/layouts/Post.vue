@@ -1,55 +1,45 @@
 <template>
-  <div class="post">
-    <PostMeta v-if="meta" />
+    <div class="post">
+        <PostMeta v-if="meta" />
 
-    <article class="main-div">
-      <Content
-        :key="$page.path"
-        class="post-content content"
-      />
-    </article>
+        <article class="main-div">
+            <Content :key="$page.path" class="post-content content" />
+        </article>
 
-    <PostMeta v-if="meta" />
+        <PostMeta v-if="meta" />
 
-    <div
-      v-if="vssue"
-      id="post-comments"
-      class="main-div"
-    >
-      <Vssue
-        :title="vssueTitle"
-        :issue-id="vssueId"
-      />
+        <div v-if="vssue" id="post-comments" class="main-div">
+            <Vssue :title="vssueTitle" :issue-id="vssueId" />
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
 import PostMeta from '@theme/components/PostMeta.vue'
 
 export default {
-  name: 'Post',
+    name: 'Post',
 
-  components: {
-    PostMeta,
-  },
-
-  computed: {
-    meta () {
-      return this.$frontmatter.meta !== false
+    components: {
+        PostMeta,
     },
 
-    vssue () {
-      return this.$themeConfig.comments !== false && this.$frontmatter.vssue !== false && (this.vssueTitle || this.vssueId)
-    },
+    computed: {
+        meta() {
+            return this.$frontmatter.meta !== false
+        },
 
-    vssueTitle () {
-      return this.$frontmatter['vssue-title'] || this.$frontmatter.title || undefined
-    },
+        vssue() {
+            return this.$themeConfig.comments !== false && this.$frontmatter.vssue !== false && (this.vssueTitle || this.vssueId)
+        },
 
-    vssueId () {
-      return this.$frontmatter['vssue-id'] || undefined
+        vssueTitle() {
+            return this.$frontmatter['vssue-title'] || this.$frontmatter.title || undefined
+        },
+
+        vssueId() {
+            return this.$frontmatter['vssue-id'] || undefined
+        },
     },
-  },
 }
 </script>

@@ -1,14 +1,18 @@
 <template>
-  <div class="main-div not-found">
-    <h1>404 Not Found</h1>
+    <div class="main-div not-found">
+        <h1>404 Not Found</h1>
 
-    <p>{{ $themeConfig.lang.notFound }}</p>
-  </div>
+        <p>
+            {{ $themeConfig.lang.notFound }}
+        </p>
+
+        <img src="http://http.cat/404" alt="404 Cat">
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'NotFound',
+    name: 'NotFound',
 }
 </script>
 

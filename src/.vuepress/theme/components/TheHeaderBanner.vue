@@ -1,16 +1,16 @@
 <template>
-  <div class="banner">
-    <div class="container">
-      <div class="center">
-        <slot />
-      </div>
+    <div class="banner">
+        <div class="container">
+            <div class="center">
+                <slot />
+            </div>
+        </div>
     </div>
-  </div>
 </template>
 
 <script>
 export default {
-  name: 'TheHeaderBanner',
+    name: 'TheHeaderBanner',
 }
 </script>
 

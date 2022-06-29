@@ -1,19 +1,11 @@
 <template>
-  <div class="search-input">
-    <label>
-      <Icon
-        name="search"
-        :title="$themeConfig.lang.search"
-      />
+    <div class="search-input">
+        <label>
+            <Icon name="search" :title="$themeConfig.lang.search" />
 
-      <input
-        type="text"
-        :placeholder="$themeConfig.lang.searchHint"
-        :value="value"
-        @input="updateValue"
-      >
-    </label>
-  </div>
+            <input type="text" :placeholder="$themeConfig.lang.searchHint" :value="value" @input="updateValue">
+        </label>
+    </div>
 </template>
 
 <script>
@@ -21,26 +13,26 @@ import debounce from 'lodash.debounce'
 import Icon from '@theme/components/Icon.vue'
 
 export default {
-  name: 'PostsFilterSearch',
+    name: 'PostsFilterSearch',
 
-  components: {
-    Icon,
-  },
-
-  props: {
-    value: {
-      type: String,
-      required: true,
+    components: {
+        Icon,
     },
-  },
 
-  computed: {
-    updateValue () {
-      return debounce(e => {
-        this.$emit('input', e.target.value)
-      }, 300)
+    props: {
+        value: {
+            type: String,
+            required: true,
+        },
     },
-  },
+
+    computed: {
+        updateValue() {
+            return debounce(e => {
+                this.$emit('input', e.target.value)
+            }, 300)
+        },
+    },
 }
 </script>
 

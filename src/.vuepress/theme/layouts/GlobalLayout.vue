@@ -1,11 +1,11 @@
 <template>
-  <div id="vuepress-theme-meteorlxy">
-    <TheHeader />
+    <div id="vuepress-theme-meteorlxy">
+        <TheHeader />
 
-    <TheMain />
+        <TheMain />
 
-    <TheFooter />
-  </div>
+        <TheFooter />
+    </div>
 </template>
 
 <script>
@@ -14,13 +14,13 @@ import TheMain from '@theme/components/TheMain.vue'
 import TheFooter from '@theme/components/TheFooter.vue'
 
 export default {
-  name: 'ThemeMeteorlxy',
+    name: 'ThemeMeteorlxy',
 
-  components: {
-    TheHeader,
-    TheMain,
-    TheFooter,
-  },
+    components: {
+        TheHeader,
+        TheMain,
+        TheFooter,
+    },
 }
 </script>
 

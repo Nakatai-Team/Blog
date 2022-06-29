@@ -2,45 +2,45 @@
 import Icon from '@theme/components/Icon.vue'
 
 export default {
-  name: 'IconTag',
+    name: 'IconTag',
 
-  functional: true,
+    functional: true,
 
-  props: {
-    name: {
-      type: String,
-      required: true,
+    props: {
+        name: {
+            type: String,
+            required: true,
+        },
+
+        icon: {
+            type: String,
+            required: true,
+        },
+
+        size: {
+            type: String,
+            default: '1x',
+        },
     },
 
-    icon: {
-      type: String,
-      required: true,
+    render(h, { props: { name, icon, size } }) {
+        return (
+            <span
+                class="post-tag"
+                title={name}
+            >
+                <Icon
+                    class="post-tag-icon"
+                    name={icon}
+                    size={size}
+                />
+
+                <span class="post-tag-name">
+                    {name}
+                </span>
+            </span>
+        )
     },
-
-    size: {
-      type: String,
-      default: '1x',
-    },
-  },
-
-  render (h, { props: { name, icon, size } }) {
-    return (
-      <span
-        class="post-tag"
-        title={name}
-      >
-        <Icon
-          class="post-tag-icon"
-          name={icon}
-          size={size}
-        />
-
-        <span class="post-tag-name">
-          { name }
-        </span>
-      </span>
-    )
-  },
 }
 </script>
 

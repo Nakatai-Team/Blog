@@ -1,69 +1,39 @@
 <template>
-  <div>
-    <nav
-      class="navbar"
-      :class="navbarClass"
-    >
-      <div class="container">
-        <RouterLink :to="$localePath">
-          <span
-            v-if="$siteTitle"
-            class="navbar-site-name"
-          >
-            {{ $siteTitle }}
-          </span>
-        </RouterLink>
+    <div>
+        <nav class="navbar" :class="navbarClass">
+            <div class="container">
+                <RouterLink :to="$localePath">
+                    <span v-if="$siteTitle" class="navbar-site-name">
+                        {{ $siteTitle }}
+                    </span>
+                </RouterLink>
 
-        <div
-          class="navbar-toggler"
-          @click="showNavLinks = !showNavLinks"
-        >
-          <Icon
-            name="menu"
-            size="1.2em"
-          />
-        </div>
+                <div class="navbar-toggler" @click="showNavLinks = !showNavLinks">
+                    <Icon name="menu" size="1.2em" />
+                </div>
 
-        <div
-          class="navbar-links"
-          :class="{
-            'show': showNavLinks,
-          }"
-        >
-          <template v-for="nav of $themeConfig.nav">
-            <RouterLink
-              v-if="!isExternal(nav.link)"
-              :key="nav.text"
-              :to="nav.link"
-              class="navbar-link"
-              :exact="nav.exact || false"
-              @click.native="showNavLinks = false"
-            >
-              {{ nav.text }}
-            </RouterLink>
+                <div class="navbar-links" :class="{
+                    'show': showNavLinks,
+                }">
+                    <template v-for="nav of $themeConfig.nav">
+                        <RouterLink v-if="!isExternal(nav.link)" :key="nav.text" :to="nav.link" class="navbar-link"
+                            :exact="nav.exact || false" @click.native="showNavLinks = false">
+                            {{ nav.text }}
+                        </RouterLink>
 
-            <a
-              v-else
-              :key="nav.text"
-              :href="nav.link"
-              class="navbar-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span>{{ nav.text }}</span>
+                        <a v-else :key="nav.text" :href="nav.link" class="navbar-link" target="_blank"
+                            rel="noopener noreferrer">
+                            <span>{{ nav.text }}</span>
 
-              <OutboundLink />
-            </a>
-          </template>
-        </div>
-      </div>
-    </nav>
+                            <OutboundLink />
+                        </a>
+                    </template>
+                </div>
+            </div>
+        </nav>
 
-    <div
-      v-show="fixed"
-      class="navbar-holder"
-    />
-  </div>
+        <div v-show="fixed" class="navbar-holder" />
+    </div>
 </template>
 
 <script>
@@ -71,38 +41,38 @@ import throttle from 'lodash.throttle'
 import Icon from '@theme/components/Icon.vue'
 
 export default {
-  name: 'TheHeaderNavbar',
+    name: 'TheHeaderNavbar',
 
-  components: {
-    Icon,
-  },
-
-  data () {
-    return {
-      fixed: false,
-      showNavLinks: false,
-    }
-  },
-
-  computed: {
-    navbarClass () {
-      return {
-        fixed: this.fixed,
-      }
+    components: {
+        Icon,
     },
-  },
 
-  mounted () {
-    window.addEventListener('scroll', throttle(() => {
-      this.fixed = window.scrollY !== 0
-    }), 100)
-  },
-
-  methods: {
-    isExternal (link) {
-      return /^(https?:|mailto:|tel:)/.test(link)
+    data() {
+        return {
+            fixed: false,
+            showNavLinks: false,
+        }
     },
-  },
+
+    computed: {
+        navbarClass() {
+            return {
+                fixed: this.fixed,
+            }
+        },
+    },
+
+    mounted() {
+        window.addEventListener('scroll', throttle(() => {
+            this.fixed = window.scrollY !== 0
+        }), 100)
+    },
+
+    methods: {
+        isExternal(link) {
+            return /^(https?:|mailto:|tel:)/.test(link)
+        },
+    },
 }
 </script>
 

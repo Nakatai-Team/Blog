@@ -1,13 +1,9 @@
 <template>
-  <div class="category">
-    <PostsFilter
-      v-model="posts"
-      :posts="$category.posts"
-      :categories="false"
-    />
+    <div class="category">
+        <PostsFilter v-model="posts" :posts="$category.posts" :categories="false" />
 
-    <PostsList :posts="posts" />
-  </div>
+        <PostsList :posts="posts" />
+    </div>
 </template>
 
 <script>
@@ -15,21 +11,21 @@ import PostsFilter from '@theme/components/PostsFilter.vue'
 import PostsList from '@theme/components/PostsList.vue'
 
 export default {
-  name: 'Category',
+    name: 'Category',
 
-  components: {
-    PostsFilter,
-    PostsList,
-  },
+    components: {
+        PostsFilter,
+        PostsList,
+    },
 
-  data () {
-    return {
-      posts: null,
-    }
-  },
+    data() {
+        return {
+            posts: null,
+        }
+    },
 
-  created () {
-    this.posts = this.$category.posts
-  },
+    created() {
+        this.posts = this.$category.posts
+    },
 }
 </script>

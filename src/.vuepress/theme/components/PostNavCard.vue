@@ -1,31 +1,21 @@
 <template>
-  <div
-    v-if="showContents || showComments"
-    class="post-nav-card"
-    :style="style"
-  >
-    <div
-      v-if="showContents"
-      class="post-nav-contents"
-    >
-      <Icon name="book" />
+    <div v-if="showContents || showComments" class="post-nav-card" :style="style">
+        <div v-if="showContents" class="post-nav-contents">
+            <Icon name="book" />
 
-      <span>{{ $themeConfig.lang.toc }}</span>
+            <span>{{ $themeConfig.lang.toc }}</span>
 
-      <TOC class="post-nav-toc" />
+            <TOC class="post-nav-toc" />
+        </div>
+
+        <div v-if="showComments" class="post-nav-comments">
+            <Icon name="comment" />
+
+            <RouterLink to="#post-comments">
+                {{ $themeConfig.lang.comments }}
+            </RouterLink>
+        </div>
     </div>
-
-    <div
-      v-if="showComments"
-      class="post-nav-comments"
-    >
-      <Icon name="comment" />
-
-      <RouterLink to="#post-comments">
-        {{ $themeConfig.lang.comments }}
-      </RouterLink>
-    </div>
-  </div>
 </template>
 
 <script>
@@ -34,70 +24,70 @@ import debounce from 'lodash.debounce'
 import Icon from '@theme/components/Icon.vue'
 
 export default {
-  name: 'PostNavCard',
+    name: 'PostNavCard',
 
-  components: {
-    Icon,
-  },
+    components: {
+        Icon,
+    },
 
-  data () {
-    return {
-      fixed: false,
-      width: 0,
-      scrollListener: throttle(() => {
-        this.fixed = this.infoCardDom.getBoundingClientRect().bottom < this.navbarHeight
-      }, 100),
-      resizeListener: debounce(() => {
+    data() {
+        return {
+            fixed: false,
+            width: 0,
+            scrollListener: throttle(() => {
+                this.fixed = this.infoCardDom.getBoundingClientRect().bottom < this.navbarHeight
+            }, 100),
+            resizeListener: debounce(() => {
+                this.width = this.getWidth()
+            }, 100),
+        }
+    },
+
+    computed: {
+        style() {
+            return {
+                position: this.fixed ? 'fixed' : 'relative',
+                top: this.fixed ? `${this.navbarHeight}px` : 0,
+                width: `${this.width}px`,
+            }
+        },
+
+        infoCardDom() {
+            return document.querySelector('#app .info-card')
+        },
+
+        navbarHeight() {
+            return document.querySelector('.navbar').clientHeight
+        },
+
+        showContents() {
+            return this.$page.headers && this.$page.headers.filter(h => h.level === 2).length > 0
+        },
+
+        showComments() {
+            return this.$themeConfig.comments !== false && this.$frontmatter.vssue !== false && (
+                this.$frontmatter['vssue-id'] || this.$frontmatter['vssue-title'] || this.$frontmatter.title
+            )
+        },
+    },
+
+    mounted() {
         this.width = this.getWidth()
-      }, 100),
-    }
-  },
 
-  computed: {
-    style () {
-      return {
-        position: this.fixed ? 'fixed' : 'relative',
-        top: this.fixed ? `${this.navbarHeight}px` : 0,
-        width: `${this.width}px`,
-      }
+        window.addEventListener('scroll', this.scrollListener)
+        window.addEventListener('resize', this.resizeListener)
     },
 
-    infoCardDom () {
-      return document.querySelector('#app .info-card')
+    beforeDestroy() {
+        window.removeEventListener('scroll', this.scrollListener)
+        window.removeEventListener('resize', this.resizeListener)
     },
 
-    navbarHeight () {
-      return document.querySelector('.navbar').clientHeight
+    methods: {
+        getWidth() {
+            return this.infoCardDom.clientWidth
+        },
     },
-
-    showContents () {
-      return this.$page.headers && this.$page.headers.filter(h => h.level === 2).length > 0
-    },
-
-    showComments () {
-      return this.$themeConfig.comments !== false && this.$frontmatter.vssue !== false && (
-        this.$frontmatter['vssue-id'] || this.$frontmatter['vssue-title'] || this.$frontmatter.title
-      )
-    },
-  },
-
-  mounted () {
-    this.width = this.getWidth()
-
-    window.addEventListener('scroll', this.scrollListener)
-    window.addEventListener('resize', this.resizeListener)
-  },
-
-  beforeDestroy () {
-    window.removeEventListener('scroll', this.scrollListener)
-    window.removeEventListener('resize', this.resizeListener)
-  },
-
-  methods: {
-    getWidth () {
-      return this.infoCardDom.clientWidth
-    },
-  },
 }
 </script>
 
