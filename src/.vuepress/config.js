@@ -26,7 +26,7 @@ module.exports = {
         "sitemap": {
             hostname: "https://nakatai.ga",
             exclude: ["/404"],
-            changefreq: "weekly",
+            changefreq: "daily",
             dateFormatter: val => {
                 return new Date().toISOString()
             },
