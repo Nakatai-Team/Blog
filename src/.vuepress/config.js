@@ -1,6 +1,3 @@
-const feed_options = {
-    canonical_base: "https://nakatai.ga",
-};
 const path = require("path");
 
 module.exports = {
@@ -33,7 +30,9 @@ module.exports = {
         },
     },
     plugins: [
-        ["feed", feed_options]
+        ["feed", {
+            canonical_base: "https://nakatai.ga",
+        }]
     ],
 
     themeConfig: {
