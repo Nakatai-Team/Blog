@@ -29,6 +29,8 @@ Nakatai Blog（[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README
 
 但し、管理者がコメントを書き込みさせることを何らかの理由で不適切と判断した際にはコメントの書き込みを停止、若しくは全て・その一部を削除する場合があります。
 
+また、コメントを書き込みさせることを管理者が技術・金銭的に難しいと判断した場合にはコメントの機能を設けないこともできる。
+
 次の各号に掲げる内容を含むコメントは、当サイト管理人の裁量によって承認せず、削除する事があります。
 
 - 特定の自然人または法人を誹謗し、中傷するもの
@@ -76,6 +78,10 @@ Nakatai Blog（[こちら](https://github.com/Nakatai-0322/Blog/blob/main/README
 
 詳しくは、[「クリエイティブ・コモンズ 表示-継承」ライセンスのリーガルコード](https://creativecommons.org/licenses/by/4.0/legalcode.txt)（英文）及び、["Apache License 2.0"のリーガルコード](https://www.apache.org/licenses/LICENSE-2.0.txt)（英文）をご覧ください。
 
+但し、当規約もしくは当サイトに適用される利用規約については、[CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja)を適用するものとします。
+
+詳しくは[リーガルコード](https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt)をご覧ください。
+
 ## 紛争解決
 
 本規約の解釈は、[日本国法](https://elaws.e-gov.go.jp/)によるものとします。
@@ -103,6 +109,8 @@ Discord:[`Nakatai_0322#6872`](https://go.nakatai.ga/discord)
 令和04年03月28日  デュアルライセンス化及び「紛争解決について」の項を追加
 
 令和04年06月18日  ライセンスの変更（"Creative Commons Attribution-ShareAlike" → "Creative Commons Attribution"）
+
+令和04年07月04日  規約に対するライセンスの付加
 
 ※なお、軽微な変更は改正履歴に含めておりません。予めご了承ください。
 
