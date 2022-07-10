@@ -1,6 +1,6 @@
 ---
 title: "バイセクシュアルについて"
-date: 2022-07-10
+date: 2022-07-11
 categories:
     - ブログ
 tags:
@@ -45,4 +45,3 @@ Q4.男性、または女性のどちらか特定の性別の人に恋愛感情�
 <img src="https://cdn.nakatai.ga/img/sign.webp" width="500" alt="サイン">
 
 <Disqus/>
-
