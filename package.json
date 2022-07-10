@@ -21,6 +21,5 @@
         "vuepress-plugin-sitemap": "^2.3.1",
         "vuepress-theme-meteorlxy": "^1.9.0"
     },
-    "dependencies": {
-    }
+    "dependencies": {}
 }
