@@ -15,7 +15,7 @@
     "license": "(Apache-2.0 OR CC-BY-SA-4.0)",
     "repository": "https://github.com/Nakatai-0322/Blog.git",
     "devDependencies": {
-        "vuepress": "^1.8.2",
+        "vuepress": "^1.9.2",
         "vuepress-plugin-disqus": "^0.2.0",
         "vuepress-plugin-feed": "^0.1.9",
         "vuepress-plugin-sitemap": "^2.3.1",
