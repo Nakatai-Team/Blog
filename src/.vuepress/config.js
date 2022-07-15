@@ -97,8 +97,8 @@ module.exports = {
                 <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">
                     Nakatai Blog
                 </span>"は
-                <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">
-                    クリエイティブ・コモンズ 表示 4.0 国際 ライセンス
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                    クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス
                 </a>で提供されています。
                 <br>
                 `,
