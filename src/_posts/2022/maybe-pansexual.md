@@ -26,7 +26,7 @@ menu: main
 
 「ウィキペディア日本語版」の「全性愛」の項目より引用
 
-<https://ja.wikipedia.org/wiki/全性愛>
+[https://ja.wikipedia.org/wiki/全性愛](https://ja.wikipedia.org/wiki/%E5%85%A8%E6%80%A7%E6%84%9B)
 
 はい。短くまとめますと、全性愛とは、**あらゆる人に恋したり、性的な願望を抱いたりできる性的指向**、ということです。
 
